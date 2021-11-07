@@ -28,7 +28,7 @@ function WorkSection () {
       />
       <hr />
       <div className='flex items-center'>
-        <div className='button text-center max-w-sm justify-center align-center'>See all Projects</div>
+        <div className='button text-center max-w-sm justify-center align-center'>See all Projects.</div>
       </div>
     </div>
   )
