@@ -2,7 +2,7 @@ import React from 'react'
 
 function Buttons () {
   return (
-    <div className='flex text-black mt-12 items-start'>
+    <div className='flex text-black items-start'>
       <h1 className='button'>All Photos</h1>
       <h1 className='button'>All Projects</h1>
       <div>

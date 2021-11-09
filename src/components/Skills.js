@@ -9,14 +9,17 @@ function Skills () {
         <div>
           <h1>Web Design</h1>
           <h2>01</h2>
+          <h3>Example Text</h3>
         </div>
         <div>
           <h1>Creativity</h1>
           <h2>02</h2>
+          <h3>Example Text</h3>
         </div>
         <div>
           <h1>Photography</h1>
           <h2>03</h2>
+          <h3>Example Text</h3>
         </div>
       </div>
       <hr />

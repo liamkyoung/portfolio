@@ -9,6 +9,7 @@ import WorkSection from '../components/WorkSection'
 import PhotographySection from '../components/PhotographySection'
 // import Image from 'next/image'
 // import BGSVG from '../../public/bg.svg'
+// <Gator />
 
 export default function Home () {
   return (
@@ -24,8 +25,11 @@ export default function Home () {
       <BgSVG />
       <Header />
       <div className='relative z-20 flex items-center justify-center'>
-        <div className='mx-20 my-32'>
+        <div className='mx-10 my-32'>
           <Title />
+          <div className='flex'>
+            <hr className='m-6 w-1/2' />
+          </div>
           <Buttons />
         </div>
         <Gator />

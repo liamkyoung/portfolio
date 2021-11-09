@@ -3,9 +3,9 @@ import React from 'react'
 function Title () {
   return (
     <div>
-      <div className='mx-5 my-2'>
-        <h1 className='font-bold text-6xl'>LIAM KINGSTON YOUNG</h1>
-        <h3 className='font-light text-2xl'>is a really cool guy with a </h3>
+      <div className=''>
+        <h1 className='font-bold text-6xl mx-5 my-2'>LIAM KINGSTON YOUNG</h1>
+        <h3 className='text-2xl mx-8 -my-2 font-light'>is a really cool guy with a </h3>
       </div>
       <div className='mt-24 text-3xl flex font-bold'>
         <div>

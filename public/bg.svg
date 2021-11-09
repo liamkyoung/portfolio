@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#363636;}
+	.st0{background: linear-gradient(90deg, #852f42, #9b3d45, #b04c47, #c35e48, #d57148, #e38547, #f09b47, #f9b248);}
 	.st1{fill:none;}
 </style>
 <path class="st0" d="M1007,29"/>

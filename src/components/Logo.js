@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function Logo () {
   return (
-    <div className='text-white cursor-pointer'>
+    <div className='text-white cursor-pointer mx-5'>
       <Link href='/'>
         <Image src={LogoSVG} height={100} width={100} />
       </Link>
