@@ -6,6 +6,7 @@ import Gator from '../components/Gator'
 import BgSVG from '../components/BgSVG'
 import Skills from '../components/Skills'
 import WorkSection from '../components/WorkSection'
+import PhotographySection from '../components/PhotographySection'
 // import Image from 'next/image'
 // import BGSVG from '../../public/bg.svg'
 
@@ -20,17 +21,20 @@ export default function Home () {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet" />
       </Head>
+      <BgSVG />
       <Header />
-      <div className='flex items-center z-20 justify-center'>
+      <div className='relative z-20 flex items-center justify-center'>
         <div className='mx-20 my-32'>
           <Title />
           <Buttons />
         </div>
         <Gator />
       </div>
-      <Skills />
-      <WorkSection />
-      {/* <BgSVG /> */}
+      <div className='relative z-100'>
+        <Skills />
+        <WorkSection />
+        <PhotographySection />
+      </div>
     </div>
   )
 }

@@ -27,9 +27,10 @@ function WorkSection () {
         video='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
       />
       <hr />
-      <div className='flex items-center'>
-        <div className='button text-center max-w-sm justify-center align-center'>See all Projects.</div>
+      <div className='flex justify-center m-5'>
+        <h1 className='button'>See all Projects.</h1>
       </div>
+      <hr />
     </div>
   )
 }
