@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @layer base {
+    body {
+        
+    }
+} */
+
 @layer utilities {
     .button {
         @apply cursor-pointer p-3 mx-6 my-3 text-sm font-semibold md:text-base bg-portfolio-yellow rounded-lg border-portfolio-yellow focus:outline-none text-black;

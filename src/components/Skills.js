@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills () {
   return (
-    <div className='text-center'>
+    <div className='text-center w-3/4'>
       <h1 className='font-bold text-2xl mb-5'>Skills</h1>
       <hr />
       <div className='flex justify-between align-center m-6'>
