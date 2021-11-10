@@ -26,7 +26,6 @@ function Skills () {
         <hr />
       </div>
     </div>
-    
   )
 }
 

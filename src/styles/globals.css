@@ -15,4 +15,7 @@
     .headerBtn {
         @apply mx-7 px-3 pb-1 cursor-pointer border-white rounded-lg border-2 hover:text-black hover:bg-white;
     }
+    .inputField {
+        @apply rounded-lg bg-portfolio text-white font-light p-1 text-center;
+    }
 }
