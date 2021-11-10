@@ -7,6 +7,7 @@ import BgSVG from '../components/BgSVG'
 import Skills from '../components/Skills'
 import WorkSection from '../components/WorkSection'
 import PhotographySection from '../components/PhotographySection'
+import Footer from '../components/Footer'
 // import Image from 'next/image'
 // import BGSVG from '../../public/bg.svg'
 // <Gator />
@@ -38,6 +39,7 @@ export default function Home () {
         <Skills />
         <WorkSection />
         <PhotographySection />
+        <Footer />
       </div>
     </div>
   )
