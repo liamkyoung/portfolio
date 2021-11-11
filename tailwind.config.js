@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         portfolio: {
           DEFAULT: '#181818',
+          subtitle: '#767676',
           gray: '#0E2431',
           pink: '#852F42',
           red: '#FC3A52',
@@ -19,7 +20,10 @@ module.exports = {
       }
     },
     fontFamily: {
-      monsterrat: "'Montserrat', 'sans-serif'"
+      monsterrat: "'Montserrat', 'sans-serif'",
+      notable: "'Notable', 'sans-serif'",
+      paytone: "'Paytone One', 'sans-serif'",
+      reem: "'Reem Kufi', 'sans-serif'"
     },
     minHeight: {
       '0': '0',
@@ -32,7 +36,7 @@ module.exports = {
       '1/4': '25%',
       '1/2': '50%',
       '3/4': '75%'
-    }
+    },
   },
   variants: {
     extend: {},

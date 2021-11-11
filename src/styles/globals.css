@@ -10,12 +10,26 @@
 
 @layer utilities {
     .button {
-        @apply cursor-pointer p-3 mx-6 my-3 text-sm font-semibold md:text-base bg-portfolio-yellow rounded-lg border-portfolio-yellow focus:outline-none text-black;
+        @apply font-paytone cursor-pointer p-3 mx-6 my-3 text-sm md:text-base bg-portfolio-yellow rounded-lg border-portfolio-yellow focus:outline-none text-black;
     }
+
     .headerBtn {
         @apply mx-7 px-3 pb-1 cursor-pointer border-white rounded-lg border-2 hover:text-black hover:bg-white;
     }
+
     .inputField {
         @apply rounded-lg bg-portfolio text-white font-light p-1 text-center;
+    }
+
+    .skillIcons {
+        @apply m-4 text-portfolio-pink text-7xl hover:text-portfolio-red;
+    }
+
+    .skillDesc {
+        @apply font-reem max-w-sm my-2;
+    }
+
+    .sectionHeading {
+        @apply font-notable text-4xl m-5;
     }
 }

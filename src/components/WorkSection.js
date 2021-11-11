@@ -6,35 +6,31 @@ function WorkSection () {
   return (
     <div className='flex justify-center'>
       <div className='w-3/4'>
-        <h1 className='m-5 font-bold text-2xl text-center'>Featured Work</h1>
+        <h1 className='sectionHeading text-center'>Featured Work</h1>
         <hr />
         <Project
           image={GatorPic}
           title='Example Title'
           frameworks='React, D3.js, ...'
-          desc='Lorem Ipsum DUIAGDUIAGD*AIUGF*IUAFGIAFIDGIUFGDIFGIDGIUGFUGISGIFGIDSGFISGB'
+          desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor, est nec sagittis elementum, eros dolor pharetra tellus, ut sollicitudin diam nisi nec turpis.'
           code='https://github.com/liamkyoung/pse'
           site='https://liamkyoung.github.io/'
           video='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
         />
-        <hr />
         <Project
           image={GatorPic}
           title='Example Title'
           frameworks='React, D3.js, ...'
-          desc='Lorem Ipsum DUIAGDUIAGD*AIUGF*IUAFGIAFIDGIUFGDIFGIDGIUGFUGISGIFGIDSGFISGB'
+          desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor, est nec sagittis elementum, eros dolor pharetra tellus, ut sollicitudin diam nisi nec turpis.'
           code='https://github.com/liamkyoung/pse'
           site='https://liamkyoung.github.io/'
           video='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
         />
-        <hr />
-        <div className='flex justify-center m-5'>
-          <h1 className='button'>See all Projects.</h1>
+        <div className='flex justify-center m-12'>
+          <h1 className='button'>See All Projects</h1>
         </div>
-        <hr />
       </div>
     </div>
-    
   )
 }
 

@@ -14,7 +14,7 @@ function Buttons () {
         <Link href='/contact'>
           <h1 className='button hover:font-bold'>Contact</h1>
         </Link>
-        <h2 className='text-portfolio-red text-sm font-bold'>*looking for work!</h2>
+        <h2 className='text-portfolio-red text-sm font-paytone'>*looking for work!</h2>
       </div>
     </div>
   )

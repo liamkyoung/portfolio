@@ -18,27 +18,29 @@ function Footer () {
 
   return (
     <div className='bg-portfolio-ivory text-black text-bold h-96'>
-      <h1>Contact Me</h1>
-      <div className='flex-col'>
+      <h1 className='font-paytone text-4xl py-8 px-16'>Contact Me</h1>
+      <div className=''>
         <form className='' ref={form} onSubmit={sendEmail}>
-          <div className='m-5'>
-            <label className='mx-5'>Name</label>
-            <input className='inputField' type='text' name='name' />
+          <div className='flex mx-3'>
+            <div className='m-5'>
+              <h1 className=''>name</h1>
+              <input className='inputField' type='text' name='name' />
+            </div>
+            <div className='my-5 mx-10'>
+              <h1 className=''>e-mail</h1>
+              <input className='inputField' type='email' name='user_email' />
+            </div>
           </div>
-          <div className='m-5'>
-            <label className='mx-5'>Email</label>
-            <input className='inputField' type='email' name='user_email' />
-          </div>
-          <div className='m-5'>
-            <label className='mx-5'>Subject</label>
+          <div className='mx-5 my-5'>
+            <h1 className=''>subject</h1>
             <input className='inputField' type='text' name='subject' />
           </div>
-          <div className='flex-grow m-5'>
-            <label className='mx-5'>Message</label>
+          <div className='m-5'>
+            <h1 className=''>message</h1>
             <textarea className='inputField' name='message' />
           </div>
           <div>
-            <input className='button' type='submit' value='Send' />
+            <input className='button' type='submit' value='Submit' />
           </div>
         </form>
       </div>
