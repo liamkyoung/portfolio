@@ -18,11 +18,11 @@
     }
 
     .inputField {
-        @apply rounded-lg bg-portfolio text-white font-light p-1 text-center;
+        @apply rounded-lg bg-portfolio text-white font-light p-1;
     }
 
     .skillIcons {
-        @apply m-4 text-portfolio-pink text-7xl hover:text-portfolio-red;
+        @apply m-4 hover:text-portfolio-pink text-7xl text-portfolio-red;
     }
 
     .skillDesc {

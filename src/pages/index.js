@@ -9,6 +9,7 @@ import Skills from '../components/Skills'
 import WorkSection from '../components/WorkSection'
 import PhotographySection from '../components/PhotographySection'
 import Footer from '../components/Footer'
+import HomeAbout from '../components/HomeAbout'
 // import Image from 'next/image'
 // import BGSVG from '../../public/bg.svg'
 // <Gator />
@@ -27,14 +28,15 @@ export default function Home () {
       </Head>
       <BgSVG />
       <Header />
-      <div className='mb-36 justify-center lg:justify-start relative z-20 flex items-center'>
-        <div className='m-32'>
+      <div className='mb-16 justify-center lg:justify-start relative z-20 flex items-center'>
+        <div className='m-6 md:m-12 lg:m-32'>
           <Title />
           <SubTitle />
           <Buttons />
         </div>
       </div>
       <div className='relative z-100'>
+        <HomeAbout />
         <Skills />
         <WorkSection />
         <PhotographySection />

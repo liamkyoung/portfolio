@@ -2,13 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import GatorPic from '../../public/gator.png'
 
-function Gator () {
+function Gator ({height, width}) {
   return (
     <div className='hidden md:inline-flex mx-12'>
       <Image
         src={GatorPic}
-        height={500}
-        width={500}
+        height={height}
+        width={width}
         objectFit='contain'
       />
     </div>
