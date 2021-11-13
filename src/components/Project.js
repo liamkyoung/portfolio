@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 
 function Project ({ image, title, frameworks, desc, code, site, video }) {
@@ -9,9 +10,9 @@ function Project ({ image, title, frameworks, desc, code, site, video }) {
         <h2 className='text-2xl m-6 font-reem'>{frameworks}</h2>
         <h3 className='font-reem text-xl m-6 max-w-full overflow-ellipsis overflow-y-hidden'>{desc}</h3>
         <div className='flex justify-center'>
-          <h1 className='button' a={code}>{'<Code>'}</h1>
-          <h1 className='button' a={site}>{'<Site>'}</h1>
-          <h1 className='button' a={video}>{'<Video>'}</h1>
+          <Link href={code}><h1 className='button'>code</h1></Link>
+          <Link href={site}><h1 className='button'>site</h1></Link>
+          <Link href={video}><h1 className='button'>video</h1></Link>
         </div>
       </div>
       <div className='flex align-center justify-center border-2 border-portfolio rounded-3xl overflow-hidden w-1/2'>
