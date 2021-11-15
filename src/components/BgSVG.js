@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import BGSVG from '../../public/bg1.svg'
+import BGSVG from '../../public/bg1.svg' // bg1
 
 function BgSVG () {
   return (

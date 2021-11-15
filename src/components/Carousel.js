@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import PhotoData from '../data/PhotoData'
+import { PhotoData } from '../data/PhotoData'
 import GatorPic from '../../public/gator.png'
 import Image from 'next/image'
 
@@ -17,48 +17,28 @@ function Carousel () {
   return (
     <div className='flex justify-center'>
       <Swiper
-        slidesPerView='auto'
+        slidesPerView='3'
         spaceBetween={30}
-        navigation={true}
-        loop={true}
+        navigation
+        loop
         pagination={{ clickable: true }}
         className='mySwiper'
       >
-        <SwiperSlide className=''>
-          <div className='flex justify-center flex-shrink-2'>
-            <Image height={300} width={300} src={GatorPic} />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className=''>
-          <div className='flex justify-center flex-shrink-1'>
-            <Image height={300} width={300} src={GatorPic} />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className=''>
-          <div className='flex justify-center flex-shrink-2'>
-            <Image height={300} width={300} src={GatorPic} />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className=''>
-          <div className='flex justify-center flex-shrink-2'>
-            <Image height={300} width={300} src={GatorPic} />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className=''>
-          <div className='flex justify-center flex-shrink-2'>
-            <Image height={300} width={300} src={GatorPic} />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className=''>
-          <div className='flex justify-center flex-shrink-2'>
-            <Image height={300} width={300} src={GatorPic} />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className=''>
-          <div className='flex justify-center flex-shrink-2'>
-            <Image height={300} width={300} src={GatorPic} />
-          </div>
-        </SwiperSlide>
+        {PhotoData.map((photo, i) => {
+          return (
+            <SwiperSlide key={i} className=''>
+              <div className=''>
+                <Image
+                  src={photo.link}
+                  height={500}
+                  width={700}
+                  objectFit='contain'
+                  className=''
+                />
+              </div>
+            </SwiperSlide>
+          )
+        })}
       </Swiper>
     </div>
   )

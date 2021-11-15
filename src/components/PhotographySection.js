@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Carousel from './Carousel'
 
 function PhotographySection () {
@@ -13,7 +14,9 @@ function PhotographySection () {
         </div>
         <hr />
         <div className='flex justify-center m-5'>
-          <h1 className='button text-center'>See All Photos</h1>
+          <Link href='/photos'>
+            <h1 className='button text-center'>See All Photos</h1>
+          </Link>
         </div>
         <hr />
       </div>
