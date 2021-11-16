@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from '../components/Header'
+import WorkSection from '../components/WorkSection'
 import BgSVG from '../components/BgSVG'
 
 function Code () {
@@ -15,10 +16,9 @@ function Code () {
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <BgSVG />
       <div className='min-h-screen'>
-        <h1>Code</h1>
-      </div> 
+        <WorkSection />
+      </div>
     </div>
   )
 }
