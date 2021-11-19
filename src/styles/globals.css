@@ -14,7 +14,7 @@
     }
 
     .headerBtn {
-        @apply mx-7 px-3 pb-1 cursor-pointer border-white rounded-lg border-2 hover:text-black hover:bg-white;
+        @apply mx-7 px-3 pb-1 cursor-pointer border-white backdrop-blur-lg rounded-lg border-2 hover:text-black hover:bg-white;
     }
 
     .inputField {
@@ -35,5 +35,21 @@
 
     .sectionHR {
         @apply border-t-4 rounded-full m-5;
+    }
+
+    .mainBGContainer {
+        height: 0;
+        padding-top: 56%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .dripContaner {
+        height: 0;
+        padding-top: 26%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
     }
 }

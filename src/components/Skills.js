@@ -10,7 +10,7 @@ function Skills () {
         <hr className='sectionHR' />
         <h1 className='sectionHeading'>Skills</h1>
         <hr className='sectionHR' />
-        <div className='md:flex md:justify-between md:align-center m-8'>
+        <div className='md:flex md:justify-between md:align-center mt-16 mx-8'>
           <WebDevelopment />
           <Creativity />
           <Photography />

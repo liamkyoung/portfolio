@@ -1,7 +1,5 @@
 import React from 'react'
 import anime from 'animejs'
-import Drip1 from './drips/Drip1'
-import Drip2 from './drips/Drip2'
 
 function Drip () {
   const animationRef = React.useRef(null)
@@ -22,13 +20,13 @@ function Drip () {
   }, [])
 
   return (
-    <div className='w-3/4 -mb-16'>
-      <svg width="1920" height="436" viewBox="0 0 1920 436" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path id='drip1' d="M1988.5 0H0.5V132.5C13.8333 136.681 51.1 52.1555 93.5 52.1555C146.5 52.1555 192.5 149.865 214 227.108C235.5 304.351 343 388.856 426 240.312C509 91.7673 614.5 113.554 692.5 240.312C770.5 367.069 831 235.533 847.5 167.532C864 99.5321 1017 80.1476 1103 367.993C1189 655.839 1246.5 -80.544 1324.5 149.865C1402.5 380.273 1426 169.671 1441 149.865C1456 130.059 1513 310.292 1562.5 310.292C1612 310.292 1697.5 132.039 1715 108.932C1732.5 85.8256 1791 227.108 1845.5 227.108C1889.1 227.108 1980.67 75.7025 1988.5 0Z" fill="url(#paint0_linear_63_20)"/>
+    <div className='w-3/4 -mb-16 dripContainer'>
+      <svg className='absolute left-0 top-0' viewBox='0 0 1920 436' fill='none' xmlns='http://www.w3.org/2000/svg'>
+        <path id='drip1' d='M1988.5 0H0.5V132.5C13.8333 136.681 51.1 52.1555 93.5 52.1555C146.5 52.1555 192.5 149.865 214 227.108C235.5 304.351 343 388.856 426 240.312C509 91.7673 614.5 113.554 692.5 240.312C770.5 367.069 831 235.533 847.5 167.532C864 99.5321 1017 80.1476 1103 367.993C1189 655.839 1246.5 -80.544 1324.5 149.865C1402.5 380.273 1426 169.671 1441 149.865C1456 130.059 1513 310.292 1562.5 310.292C1612 310.292 1697.5 132.039 1715 108.932C1732.5 85.8256 1791 227.108 1845.5 227.108C1889.1 227.108 1980.67 75.7025 1988.5 0Z' fill='url(#paint0_linear_63_20)'/>
         <defs>
-          <linearGradient id="paint0_linear_63_20" x1="933.5" y1="-2.45057e-06" x2="952.651" y2="332.269" gradientUnits="userSpaceOnUse">
-            <stop stopColor="#FB764D"/>
-            <stop offset="1" stopColor="#852F42"/>
+          <linearGradient id='paint0_linear_63_20' x1='933.5' y1='-2.45057e-06' x2='952.651' y2='332.269' gradientUnits='userSpaceOnUse'>
+            <stop stopColor='#FB764D' />
+            <stop offset='1' stopColor='#852F42' />
           </linearGradient>
         </defs>
       </svg>

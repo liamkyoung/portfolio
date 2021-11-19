@@ -1,7 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { PhotoData } from '../data/PhotoData'
-import GatorPic from '../../public/gator.png'
 import Image from 'next/image'
 
 import SwiperCore, { EffectFade, Navigation, Pagination } from 'swiper'

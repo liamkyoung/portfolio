@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Headshot from '../../../public/headshot.jpeg'
+import Headshot from '../../../public/photos/headshot.jpeg'
 import Logo from '../Logo'
 import Link from 'next/link'
 
@@ -34,7 +34,7 @@ function RightFooter () {
             </Link>
           </div>
           <div className='border-portfolio-orange border-l-4 items-center ml-5'>
-            <Logo height={300} width={500} />
+            <Logo height={150} width={300} />
           </div>
         </div>
       </div>

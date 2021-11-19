@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-import Left from '../../public/left2.svg'
-import Right from '../../public/right2.svg'
+import Left from '../../public/backgrounds/left2.svg'
+import Right from '../../public/backgrounds/right2.svg'
 import Image from 'next/image'
 import Project from '../components/Project'
-import GatorPic from '../../public/gator.png'
+import GatorPic from '../../public/photos/gator.png'
 import { ProjectData } from '../data/ProjectData'
 
 function WorkSection () {

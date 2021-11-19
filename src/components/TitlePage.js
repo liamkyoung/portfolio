@@ -5,7 +5,7 @@ import Buttons from './titles/Buttons'
 
 function TitlePage () {
   return (
-    <div className='mb-16 justify-center lg:justify-start relative z-20 flex items-center'>
+    <div className='lg:absolute lg:left-0 md:top-16 relative mb-16 justify-center lg:justify-start z-20 flex items-center'>
       <div className='m-6 md:m-12 lg:m-32'>
         <Title />
         <SubTitle />

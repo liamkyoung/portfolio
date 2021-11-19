@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import TitlePage from '../components/TitlePage'
 import BgSVG from '../components/backgrounds/BgSVG'
+import MainBG from '../components/backgrounds/MainBG'
 import Skills from '../components/Skills'
 import WorkSection from '../components/WorkSection'
 import PhotographySection from '../components/PhotographySection'
@@ -22,10 +23,11 @@ export default function Home () {
         <link href='https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap' rel='stylesheet' />
       </Head>
 
-      <BgSVG />
-      <Header />
-
-      <TitlePage />
+      <div className='mainBGImage'>
+        <MainBG />
+        <Header />
+        <TitlePage />
+      </div>
 
       <section className='relative z-102'>
         <HomeAbout />

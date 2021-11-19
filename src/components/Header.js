@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 function Header () {
   return (
-    <div className='font-paytone relative z-50 flex text-3xl mx-12 items-center my-5'>
+    <div className='absolute top-0 left-0 font-paytone z-50 flex text-3xl mx-12 items-center my-5'>
       <Logo height={100} width={100} />
       <Link href='/code'>
         <h1 className='headerBtn'>code</h1>

@@ -1,9 +1,9 @@
-import Bird from '../../public/bird.jpg'
-import Boat from '../../public/boat.jpg'
-import Flowers from '../../public/flowers.jpg'
-import Windmill from '../../public/windmill.jpg'
-import Bridge from '../../public/bridge.jpg'
-import Building from '../../public/building.jpg'
+import Bird from '../../public/photos/bird.jpg'
+import Boat from '../../public/photos/boat.jpg'
+import Flowers from '../../public/photos/flowers.jpg'
+import Windmill from '../../public/photos/windmill.jpg'
+import Bridge from '../../public/photos/bridge.jpg'
+import Building from '../../public/photos/building.jpg'
 
 export const PhotoData = [
   {
