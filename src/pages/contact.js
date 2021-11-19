@@ -1,5 +1,5 @@
 import React from 'react'
-import BgSVG from '../components/BgSVG'
+import BgSVG from '../components/backgrounds/BgSVG'
 import Head from 'next/head'
 import Header from '../components/Header'
 

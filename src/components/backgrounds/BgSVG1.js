@@ -1,8 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import left1 from '../../public/left1.svg'
-import right1 from '../../public/right1.svg'
-import drip from '../../public/drip.svg'
+import drip from '../../../public/drip.svg'
 
 function BgSVG1 () {
   return (

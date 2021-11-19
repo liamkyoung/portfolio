@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from '../components/Header'
-import BgSVG from '../components/BgSVG'
+import BgSVG from '../components/backgrounds/BgSVG'
 
 function Photos () {
   return (

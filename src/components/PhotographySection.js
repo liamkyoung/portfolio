@@ -6,19 +6,19 @@ function PhotographySection () {
   return (
     <div className='flex justify-center'>
       <div className='w-3/4'>
-        <hr />
+        <hr className='sectionHR' />
         <h1 className='sectionHeading text-center'>Featured Photography</h1>
-        <hr />
+        <hr className='sectionHR' />
         <div className='m-10'>
           <Carousel />
         </div>
-        <hr />
+        <hr className='sectionHR' />
         <div className='flex justify-center m-5'>
           <Link href='/photos'>
             <h1 className='button text-center'>See All Photos</h1>
           </Link>
         </div>
-        <hr />
+        <hr className='sectionHR' />
       </div>
     </div>
   )

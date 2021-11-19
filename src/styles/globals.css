@@ -30,6 +30,10 @@
     }
 
     .sectionHeading {
-        @apply font-notable text-4xl m-5;
+        @apply font-notable text-4xl m-10;
+    }
+
+    .sectionHR {
+        @apply border-t-4 rounded-full m-5;
     }
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import BGSVG from '../../public/bg1.svg' // bg1
+import BGSVG from '../../../public/bg1.svg' // bg1
 
 function BgSVG () {
   return (
-    <div className='w-full h-full overflow-hidden'>
+    <div className='hidden md:block w-full sm:h-full overflow-hidden'>
       <Image
         src={BGSVG}
         layout='fill'

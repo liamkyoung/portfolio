@@ -20,9 +20,9 @@ function WorkSection () {
         />
       </div>
       <div className='w-3/4'>
-        <hr />
+        <hr className='sectionHR' />
         <h1 className='sectionHeading text-center'>Featured Work</h1>
-        <hr />
+        <hr className='sectionHR' />
         {ProjectData.map((proj, i) => {
           return (
             <Project

@@ -1,6 +1,6 @@
 import React from 'react'
-import LeftFooter from './LeftFooter'
-import RightFooter from './RightFooter'
+import LeftFooter from './footer/LeftFooter'
+import RightFooter from './footer/RightFooter'
 
 function Footer () {
   return (

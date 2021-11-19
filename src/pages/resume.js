@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import BgSVG from '../components/BgSVG'
+import BgSVG from '../components/backgrounds/BgSVG'
 import Header from '../components/Header'
 
 function resizeIframe (obj) {

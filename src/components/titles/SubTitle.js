@@ -4,7 +4,7 @@ function SubTitle () {
   return (
     <div className=''>
       <div className='flex align-bottom'>
-        <hr className='m-6 w-1/2 stroke-1' />
+        <hr className='sectionHR w-1/2' />
       </div>
       <div className='text-3xl flex font-notable'>
         <div>
@@ -19,7 +19,7 @@ function SubTitle () {
         </div>
       </div>
       <div className='flex align-bottom'>
-        <hr className='m-6 w-1/2 stroke-1' />
+        <hr className='sectionHR w-1/2' />
       </div>
     </div>
   )
