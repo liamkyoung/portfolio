@@ -5,7 +5,7 @@ import Photography from './skills/Photography'
 
 function Skills () {
   return (
-    <div className='flex justify-center mb-10'>
+    <div className='flex justify-center'>
       <div className='text-center w-3/4'>
         <hr className='sectionHR' />
         <h1 className='sectionHeading'>Skills</h1>

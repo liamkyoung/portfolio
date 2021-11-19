@@ -31,10 +31,12 @@ export default function Home () {
 
       <section className='relative z-102'>
         <HomeAbout />
-        <Drip />
       </section>
+      <div className='relative'>
+        <Drip />
+      </div>
 
-      <section className='relative z-100'>
+      <section className='m-20 relative z-100'>
         <Skills />
       </section>
 
@@ -46,7 +48,6 @@ export default function Home () {
       <section className='relative z-100'>
         <Footer />
       </section>
-
     </div>
   )
 }
