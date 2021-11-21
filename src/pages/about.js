@@ -2,6 +2,9 @@ import React from 'react'
 import BgSVG from '../components/backgrounds/BgSVG'
 import Head from 'next/head'
 import Header from '../components/Header'
+import MainBG from '../components/backgrounds/MainBG'
+import Information from '../components/about/Information'
+import Facts from '../components/about/Facts'
 
 function About () {
   return (
@@ -15,8 +18,9 @@ function About () {
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <BgSVG />
-      About
+      <MainBG />
+      <Information />
+      <Facts />
     </div>
   )
 }

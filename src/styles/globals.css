@@ -55,6 +55,24 @@
         overflow: hidden;
     }
 
+    .homeAboutContainerBig {
+        height: 0;
+        padding-top: 139%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        z-index: 90;
+    }
+
+    .homeAboutContainerSmall {
+        height: 0;
+        padding-top: 150%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        z-index: 90;
+    }
+
     .photoGrid {
         display: grid;
         box-sizing: border-box;

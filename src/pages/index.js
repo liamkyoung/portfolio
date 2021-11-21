@@ -9,6 +9,7 @@ import PhotographySection from '../components/PhotographySection'
 import Footer from '../components/Footer'
 import HomeAbout from '../components/HomeAbout'
 import Drip from '../components/Drip'
+import HomeAboutSVG from '../components/backgrounds/svgs/HomeAboutSVG'
 
 export default function Home () {
   return (
@@ -29,9 +30,11 @@ export default function Home () {
         <TitlePage />
       </div>
 
-      <section className='relative z-102'>
+      <section className='my-24'>
         <HomeAbout />
+        <HomeAboutSVG />
       </section>
+
       <div className='relative'>
         <Drip />
       </div>

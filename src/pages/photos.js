@@ -17,14 +17,15 @@ function Photos () {
       </Head>
       <div className='relative z-100'>
         <Header />
+        <MainBG />
+        <div className='h-5' />
       </div>
-      <Grid />
+      <div className='flex justify-center mt-44'>
+        <Grid />
+      </div>
       {/* Header */}
       {/* Menu */}
       {/* Grid */}
-      <div className="relative">
-        
-      </div>
     </div>
   )
 }
