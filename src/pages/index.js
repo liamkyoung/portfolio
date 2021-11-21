@@ -23,7 +23,7 @@ export default function Home () {
         <link href='https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap' rel='stylesheet' />
       </Head>
 
-      <div className='mainBGImage'>
+      <div className='mainBGImage h-screen mb-32'>
         <MainBG />
         <Header />
         <TitlePage />

@@ -19,9 +19,11 @@ function resume () {
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
       <div className='h-screen relative'>
-        <Header />
+        <div>
+          <Header />
+        </div>
         {/* <BgSVG /> */}
-        <div className='flex justify-center min-h-3/4 max-h-screen relative mt-10 z-100'>
+        <div className='flex justify-center min-h-3/4 max-h-screen relative z-100'>
           <iframe
             className='absolute'
             title='Resume'

@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
-    body {
-        
-    }
-} */
-
 @layer utilities {
     .button {
         @apply font-paytone cursor-pointer p-3 mx-6 my-3 text-sm md:text-base bg-portfolio-yellow rounded-lg border-portfolio-yellow focus:outline-none text-black;
@@ -51,5 +45,18 @@
         width: 100%;
         position: relative;
         overflow: hidden;
+    }
+
+    .mainAccentContainer {
+        height: 0;
+        padding-top: 99%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .photoGrid {
+        display: grid;
+        box-sizing: border-box;
     }
 }

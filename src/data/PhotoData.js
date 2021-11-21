@@ -7,21 +7,27 @@ import Building from '../../public/photos/building.jpg'
 
 export const PhotoData = [
   {
-    link: Bird
+    link: Bird,
+    gridType: 'row-span-1 col-span-1'
   },
   {
-    link: Boat
+    link: Boat,
+    gridType: 'row-span-1 md:col-span-2'
   },
   {
-    link: Flowers
+    link: Flowers,
+    gridType: 'row-span-1 col-span-1'
   },
   {
-    link: Windmill
+    link: Windmill,
+    gridType: 'row-span-2 col-span-1'
   },
   {
-    link: Bridge
+    link: Bridge,
+    gridType: 'row-span-1 col-span-1'
   },
   {
-    link: Building
+    link: Building,
+    gridType: 'row-span-2 col-span-1'
   }
 ]

@@ -1,8 +1,5 @@
 import React from 'react'
 import Gator from './Gator'
-import Image from 'next/image'
-import left1 from '../../public/backgrounds/left1.svg'
-import right1 from '../../public/backgrounds/right1.svg'
 
 function HomeAbout () {
   return (
