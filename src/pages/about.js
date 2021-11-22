@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import MainBG from '../components/backgrounds/MainBG'
 import Information from '../components/about/Information'
 import Facts from '../components/about/Facts'
+import MainContent from '../components/about/MainContent'
 
 function About () {
   return (
@@ -18,8 +19,9 @@ function About () {
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <MainBG />
-      <Information />
+      {/* <MainBG /> */}
+      <MainContent />
+      {/* <Information /> */}
       <Facts />
     </div>
   )

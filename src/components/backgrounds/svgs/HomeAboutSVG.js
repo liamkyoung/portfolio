@@ -2,8 +2,8 @@ import React from 'react'
 
 function HomeAboutSVG () {
   return (
-    <div className='relative max-h-96'>
-      <div className='homeAboutContainerBig max-h-96'>
+    <div className='relative h-1/3'>
+      <div className='homeAboutContainerBig'>
         <svg className='absolute left-40 top-0 max-h-80 h-1/4' viewBox="0 0 453 432" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M241.056 58.5234C244.18 5.73702 328.919 -2.01009 370.897 0.71463C383.521 0.383294 416.294 13.321 446.398 67.7225C484.028 135.724 341.055 204.024 288.114 216.372C235.172 228.719 228.266 372.28 187.338 420.302C146.41 468.324 21.3309 342.117 1.78276 312.119C-17.7653 282.121 179.529 227.176 137.372 207.244C95.2151 187.313 59.3911 135.536 95.5235 109.773C131.656 84.0106 237.15 124.506 241.056 58.5234Z" fill="url(#paint0_linear_160_12)"/>
           <defs>

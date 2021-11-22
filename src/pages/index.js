@@ -30,7 +30,7 @@ export default function Home () {
         <TitlePage />
       </div>
 
-      <section className='my-24'>
+      <section className='mt-24'>
         <HomeAbout />
         <HomeAboutSVG />
       </section>
