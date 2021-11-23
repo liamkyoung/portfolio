@@ -23,20 +23,23 @@ function WorkSection () {
         <hr className='sectionHR' />
         <h1 className='sectionHeading text-center'>Featured Work</h1>
         <hr className='sectionHR' />
-        {ProjectData.map((proj, i) => {
-          return (
-            <Project
-              key={i}
-              title={proj.title}
-              frameworks={proj.frameworks}
-              desc={proj.desc}
-              site={proj.site}
-              code={proj.code}
-              video={proj.video}
-              image={GatorPic}
-            />
-          )
-        })}
+        <div className=''>
+          {ProjectData.map((proj, i) => {
+            return (
+              <div key={i} className='relative z-200 max-h-96 min-h-1/2 md:min-h-3/4 m-7'>
+                <Project
+                  title={proj.title}
+                  frameworks={proj.frameworks}
+                  desc={proj.desc}
+                  site={proj.site}
+                  code={proj.code}
+                  video={proj.video}
+                  image={GatorPic}
+                />
+              </div>
+            )
+          })}
+        </div>
         <div className='flex justify-center m-12'>
           <Link href='/code'><h1 className='button'>See All Projects</h1></Link>
         </div>

@@ -24,31 +24,31 @@ export default function Home () {
         <link href='https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap' rel='stylesheet' />
       </Head>
 
-      <div className='mainBGImage h-screen mb-32'>
+      <div id='main_page' className='mainBGImage h-screen mb-32'>
         <MainBG />
         <Header />
         <TitlePage />
       </div>
 
-      <section className='mt-24'>
+      <section id='home_about' className='mt-24 h-96'>
         <HomeAbout />
         <HomeAboutSVG />
       </section>
 
-      <div className='relative'>
+      <div id='drip' className='relative'>
         <Drip />
       </div>
 
-      <section className='m-20 relative z-100'>
+      <section id='skills' className='m-20 relative z-100'>
         <Skills />
       </section>
 
-      <section className='relative z-100'>
+      <section id='work_and_photos' className='relative z-100'>
         <WorkSection />
         <PhotographySection />
       </section>
 
-      <section className='relative z-100'>
+      <section id='footer' className='relative z-100'>
         <Footer />
       </section>
     </div>
