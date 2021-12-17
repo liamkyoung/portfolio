@@ -16,7 +16,7 @@ function Code () {
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <div className='min-h-screen'>
+      <div className='p-52'>
         <WorkSection />
       </div>
     </div>

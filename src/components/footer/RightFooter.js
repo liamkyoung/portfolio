@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Headshot from '../../../public/photos/headshot.jpeg'
-import Logo from '../Logo'
+import LogoBlack from '../LogoBlack'
 import Link from 'next/link'
 
 function RightFooter () {
@@ -16,7 +16,6 @@ function RightFooter () {
             objectFit='contain'
             className='rounded-full'
           />
-          <h1 className='font-reem text-xl mt-5 mx-0 text-center max-w-xs'>Random Text here xd u8gufousgfdsgf</h1>
         </div>
       </div>
       <div className='m-8'>
@@ -34,7 +33,7 @@ function RightFooter () {
             </Link>
           </div>
           <div className='border-portfolio-orange border-l-4 items-center ml-5'>
-            <Logo height={150} width={300} />
+            <LogoBlack height={150} width={300} />
           </div>
         </div>
       </div>
