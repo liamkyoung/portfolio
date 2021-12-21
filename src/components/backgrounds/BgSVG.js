@@ -10,6 +10,7 @@ function BgSVG () {
         layout='fill'
         priority='true'
         objectFit='cover'
+        alt='bg-img'
       />
     </div>
   )

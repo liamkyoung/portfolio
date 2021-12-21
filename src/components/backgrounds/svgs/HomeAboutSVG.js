@@ -17,8 +17,8 @@ function HomeAboutSVG () {
           <path d="M14.1201 88.7591C-44.6304 -1.98123 98.7889 -20.6138 146.744 21.6983C194.699 64.0105 137.439 78.3048 113.525 99.3949C83.6336 125.757 196.466 147.208 189.824 190.175C183.182 233.142 87.5583 202.185 14.1201 88.7591Z" fill="url(#paint0_linear_160_13)"/>
           <defs>
             <linearGradient id="paint0_linear_160_13" x1="60.4569" y1="-2.89941" x2="148.026" y2="218.145" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#852F42"/>
-              <stop offset="1" stop-color="#FB764D"/>
+              <stop stopColor="#852F42"/>
+              <stop offset="1" stopColor="#FB764D"/>
             </linearGradient>
           </defs>
         </svg>

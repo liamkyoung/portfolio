@@ -17,7 +17,7 @@ function Skills () {
           <Photography />
         </div>
         <div className='flex justify-center'>
-          <Link href='/resume'>
+          <Link href='/resume' passHref>
             <h1 className='button max-w-2xl'>See Resume</h1>
           </Link>
         </div>

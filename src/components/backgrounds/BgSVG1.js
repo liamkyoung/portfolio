@@ -11,6 +11,7 @@ function BgSVG1 () {
           layout='fill'
           priority='true'
           objectFit='cover'
+          alt='bg-img1'
         />
       </div>
     </div>

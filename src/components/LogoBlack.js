@@ -6,7 +6,7 @@ import Link from 'next/link'
 function Logo ({ height, width }) {
   return (
     <div className='cursor-pointer mx-5 flex-shrink-0'>
-      <Link href='/'>
+      <Link href='/' passHref>
         <Image src={LogoSVG} height={height} width={width} />
       </Link>
     </div>

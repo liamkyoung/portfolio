@@ -13,6 +13,7 @@ function Grid () {
                 src={photo.link}
                 objectFit='cover'
                 className='w-full h-full overflow-hidden cursor-pointer hover:border-portfolio-ivory border-2'
+                alt='gallery-img'
               />
             </div>
           )

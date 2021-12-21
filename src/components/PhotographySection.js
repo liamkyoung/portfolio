@@ -14,7 +14,7 @@ function PhotographySection () {
         </div>
         <hr className='sectionHR' />
         <div className='flex justify-center m-5'>
-          <Link href='/photos'>
+          <Link href='/photos' passHref>
             <h1 className='button text-center'>See All Photos</h1>
           </Link>
         </div>

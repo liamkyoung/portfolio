@@ -40,7 +40,7 @@ function WorkSection () {
           )
         })}
         <div className='flex justify-center m-12'>
-          <Link href='/code'><h1 className='button'>See All Projects</h1></Link>
+          <Link href='/code' passHref><h1 className='button'>See All Projects</h1></Link>
         </div>
       </div>
       {/* <div className='z-0'>

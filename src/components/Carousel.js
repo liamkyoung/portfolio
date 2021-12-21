@@ -32,6 +32,7 @@ function Carousel () {
                   height={500}
                   width={700}
                   objectFit='contain'
+                  alt='image'
                   className=''
                 />
               </div>
