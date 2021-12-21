@@ -5,7 +5,7 @@ import Right from '../../public/backgrounds/right2.svg'
 import Image from 'next/image'
 import Project from '../components/Project'
 import GatorPic from '../../public/photos/gator.png'
-import ExamplePic from '../../public/photos/gamesorter.png'
+import ExamplePic from '../../public/photos/gamesorter.PNG'
 import { ProjectData } from '../data/ProjectData'
 
 function WorkSection () {
