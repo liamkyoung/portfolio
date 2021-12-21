@@ -24,13 +24,13 @@ export default function Home () {
         <link href='https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap' rel='stylesheet' />
       </Head>
 
-      <div id='main_page' className='mainBGImage h-screen mb-32'>
+      <div id='main_page' className='mainBGImage h-screen'>
         <MainBG />
         <Header />
         <TitlePage />
       </div>
 
-      <section id='home_about' className='mt-24 h-96'>
+      <section id='home_about' className='lg:mt-24 h-96'>
         <HomeAbout />
         <HomeAboutSVG />
       </section>

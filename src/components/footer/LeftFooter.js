@@ -20,23 +20,23 @@ function LeftFooter () {
   }
 
   return (
-    <div className='mx-12 -my-7'>
+    <div className='mx-12 -mt-7 mb-7 flex-grow'>
       <form className='' ref={form} onSubmit={sendEmail}>
-        <div className='flex mx-3'>
-          <div className='m-5'>
+        <div className='flex-col lg:flex-row flex mx-3 items-center max-w-full'>
+          <div className='m-5 flex-auto'>
             <h1 className='font-paytone'>name</h1>
-            <input className='inputField' type='text' name='name' />
+            <input className='inputField min-w-full' type='text' name='name' />
           </div>
-          <div className='my-5 mx-10'>
+          <div className='my-5 mx-5 lg:mx-10 flex-auto'>
             <h1 className='font-paytone'>e-mail</h1>
-            <input className='inputField' type='email' name='user_email' />
+            <input className='inputField min-w-full' type='email' name='user_email' />
           </div>
-          <div className='mx-8 my-5'>
+          <div className='mx-5 lg:mx-8 my-5 flex-auto'>
             <h1 className='font-paytone'>subject</h1>
-            <input className='inputField' type='text' name='subject' />
+            <input className='inputField min-w-full' type='text' name='subject' />
           </div>
         </div>
-        <div className='mx-8 my-5 max-w-2xl'>
+        <div className='mx-8 my-5 w-full'>
           <h1 className='font-paytone'>message</h1>
           <textarea className='inputField min-w-full min-h-1/4 resize-none' name='message' />
           <div className='flex justify-center'>

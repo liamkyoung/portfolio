@@ -23,11 +23,11 @@ function resume () {
           <Header />
         </div>
         {/* <BgSVG /> */}
-        <div className='flex justify-center min-h-3/4 max-h-screen relative z-100'>
+        <div className='flex justify-center min-h-3/4 max-h-screen relative z-100 pt-36'>
           <iframe
-            className='absolute'
+            className='absolute border-portfolio-red border-4'
             title='Resume'
-            width='75%'
+            width='60%'
             height='100%'
             src='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'
           />

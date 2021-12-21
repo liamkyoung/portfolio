@@ -7,6 +7,16 @@ function SubTitle () {
         <hr className='sectionHR w-1/2' />
       </div>
       <div className='flex font-notable'>
+        <div className=''>
+
+        </div>
+        <div className=''>
+          
+        </div>
+        <div className=''>
+          
+        </div>
+
         <div className='text-xl md:text-2xl lg:3xl'>
           <h1 className='mx-5 my-1 md:my-0'>PASSION FOR</h1>
           <h1 className='mx-5 my-2 md:my-2'>EYE FOR</h1>

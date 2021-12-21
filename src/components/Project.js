@@ -21,7 +21,7 @@ function Project ({ image, title, frameworks, desc, code, site, video }) {
             className='rounded-3xl '
           />
         </div>
-        <div className='flex flex-col lg:flex-row justify-center m-auto align-center overflow-hidden w-3/4'>
+        <div className='flex flex-col lg:flex-row justify-center m-auto align-center overflow-hidden w-1/2'>
           <Link href={code}><h1 className='button'>code</h1></Link>
           <Link href={site}><h1 className='button'>site</h1></Link>
           <Link href={video}><h1 className='button'>video</h1></Link>

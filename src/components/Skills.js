@@ -2,6 +2,7 @@ import React from 'react'
 import WebDevelopment from './skills/WebDevelopment'
 import Creativity from './skills/Creativity'
 import Photography from './skills/Photography'
+import Link from 'next/link'
 
 function Skills () {
   return (
@@ -14,6 +15,11 @@ function Skills () {
           <WebDevelopment />
           <Creativity />
           <Photography />
+        </div>
+        <div className='flex justify-center'>
+          <Link href='/resume'>
+            <h1 className='button max-w-2xl'>See Resume</h1>
+          </Link>
         </div>
       </div>
     </div>

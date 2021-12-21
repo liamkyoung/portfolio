@@ -4,7 +4,9 @@
 
 @layer utilities {
     .button {
-        @apply font-paytone cursor-pointer py-1 md:py-3 px-3 mx-6 my-3 text-sm text-center md:text-base bg-portfolio-yellow rounded-lg border-portfolio-ivory border-2 focus:outline-none text-black hover:bg-portfolio-orange drop-shadow-sm;
+        @apply font-paytone cursor-pointer py-1 md:py-3 px-3 mx-6 my-3 text-sm text-center md:text-base
+        bg-portfolio-yellow rounded-lg border-portfolio-dark_yellow border-2 focus:outline-none 
+        text-black hover:bg-portfolio-orange drop-shadow-sm;
     }
 
     .headerBtn {
