@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import MainBG from '../components/backgrounds/MainBG'
 import Information from '../components/about/Information'
 import Facts from '../components/about/Facts'
+import Timer from '../components/about/Timer'
 import MainContent from '../components/about/MainContent'
 
 function About () {
@@ -20,7 +21,12 @@ function About () {
       </Head>
       <Header />
       {/* <MainBG /> */}
+      
       <MainContent />
+      <div className='flex justify-center'>
+        <Timer />
+      </div>
+      
       {/* <Information /> */}
       <Facts />
     </div>

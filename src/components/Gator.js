@@ -4,7 +4,7 @@ import GatorPic from '../../public/photos/gator.png'
 
 function Gator ({ height, width }) {
   return (
-    <div className='hidden md:inline-flex mx-12'>
+    <div className='md:inline-flex mx-12'>
       <Image
         src={GatorPic}
         height={height}

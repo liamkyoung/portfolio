@@ -33,14 +33,6 @@
         @apply border-t-4 rounded-full m-5;
     }
 
-    .mainBGContainer {
-        height: 0;
-        padding-top: 56%;
-        width: 100%;
-        position: relative;
-        overflow: hidden;
-    }
-
     .dripContaner {
         height: 0;
         padding-top: 26%;
@@ -62,7 +54,7 @@
         width: 100%;
         position: relative;
         overflow: hidden;
-        z-index: 90;
+        z-index: 0;
     }
 
     .homeAboutContainerSmall {
@@ -71,7 +63,7 @@
         width: 100%;
         position: relative;
         overflow: hidden;
-        z-index: 90;
+        z-index: 0;
     }
 
     .photoGrid {

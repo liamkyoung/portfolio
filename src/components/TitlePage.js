@@ -19,8 +19,8 @@ function TitlePage () {
   }, [])
 
   return (
-    <div className='lg:absolute lg:left-0 md:top-16 relative mb-16 justify-center lg:justify-start z-20 flex items-center'>
-      <div className='m-6 md:m-12 lg:m-32'>
+    <div className='flex items-center'>
+      <div className='sm:my-24 md:my-32 md:mx-16 lg:mx-24 lg:my-48 xl:mx-24 xl:my-52 2xl:m-60 relative z-100'>
         <div id='title'>
           <Title />
           <SubTitle />

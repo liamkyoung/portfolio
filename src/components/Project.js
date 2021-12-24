@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Project ({ image, title, frameworks, desc, code, site, video }) {
   return (
-    <div className='flex-grow bg-transparent bg-portfolio flex max-w-screen-lg border-2 border-portfolio-pink m-2 rounded-3xl my-8 hover:border-portfolio-red project'>
+    <div className='flex-grow bg-transparent bg-portfolio flex max-w-screen-lg border-2 border-portfolio-pink m-2 rounded-3xl my-8 hover:border-portfolio-red project drop-shadow-2xl'>
       {/*  */}
       <div className='w-1/2 h-full m-2 my-8 flex-grow'>
         <div className='border-portfolio-pink border-4 rounded-3xl'>
