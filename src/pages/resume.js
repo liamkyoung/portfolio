@@ -19,7 +19,6 @@ function resume () {
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
       <div className='h-screen relative'>
-        <Header />
         {/* <BgSVG /> */}
         <div className='flex justify-center min-h-3/4 max-h-screen relative z-100 pt-36'>
           <iframe
@@ -29,6 +28,7 @@ function resume () {
             height='100%'
             src='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'
           />
+          <Header />
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@
     }
 
     .skillDesc {
-        @apply font-reem max-w-sm my-2;
+        @apply font-reem max-w-sm my-2 text-center;
     }
 
     .sectionHeading {

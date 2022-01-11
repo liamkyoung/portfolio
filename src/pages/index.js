@@ -10,6 +10,7 @@ import Footer from '../components/Footer'
 import HomeAbout from '../components/HomeAbout'
 import Drip from '../components/Drip'
 import HomeAboutSVG from '../components/backgrounds/svgs/HomeAboutSVG'
+import SmallHeader from '../components/SmallHeader'
 
 export default function Home () {
   return (
@@ -27,6 +28,7 @@ export default function Home () {
       <div id='main_page' className='h-screen'>
         <MainBG />
         <Header />
+        <SmallHeader />
         <TitlePage />
       </div>
 

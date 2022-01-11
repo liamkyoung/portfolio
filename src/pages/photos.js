@@ -16,8 +16,8 @@ function Photos () {
         <link href='https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap' rel='stylesheet' />
       </Head>
       <div className='relative z-100'>
-        <Header />
         <MainBG />
+        <Header />
         <div className='h-5' />
       </div>
       <div className='flex justify-center mt-44'>
