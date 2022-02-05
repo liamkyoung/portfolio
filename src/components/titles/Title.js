@@ -1,11 +1,13 @@
 import React from 'react'
 
+//  flex flex-col justify-center align-center
+
 function Title () {
   return (
     <div>
-      <div className='font-notable mb-16'>
-        <h1 className='text-5xl lg:text-7xl mx-5 my-2'>LIAM KINGSTON YOUNG</h1>
-        <h3 className='text-left text-2xl mx-8 my-2 md:mx-5 md:-my-2 text-portfolio-subtitle'>is a software engineer with a </h3>
+      <div className='font-notable mb-16 min-w-min'>
+        <h1 className='text-5xl sm:text-7xl mx-5 my-2 text-center md:text-left'>LIAM KINGSTON YOUNG</h1>
+        <h3 className='text-center md:text-left text-2xl mx-8 my-2 md:mx-5 text-gray-500'>is a software engineer with a </h3>
       </div>
     </div>
   )

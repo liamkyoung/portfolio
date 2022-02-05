@@ -1,6 +1,7 @@
 import React from 'react'
 import BgSVG from '../components/backgrounds/BgSVG'
 import Head from 'next/head'
+import SmallHeader from '../components/SmallHeader'
 import Header from '../components/Header'
 
 function contact() {
@@ -11,6 +12,7 @@ function contact() {
         <meta name='description' content="LKY's Website" />
       </Head>
       <Header />
+      <SmallHeader />
       <BgSVG />
       Contact
     </div>

@@ -1,7 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import BgSVG from '../components/backgrounds/BgSVG'
 import Header from '../components/Header'
+import MainBG from '../components/backgrounds/MainBG'
+import SmallHeader from '../components/SmallHeader'
 
 function resizeIframe (obj) {
   obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px'
@@ -20,6 +21,7 @@ function resume () {
       </Head>
       <div className='h-screen relative'>
         {/* <BgSVG /> */}
+        
         <div className='flex justify-center min-h-3/4 max-h-screen relative z-100 pt-36'>
           <iframe
             className='absolute border-portfolio-red border-4'
@@ -28,7 +30,9 @@ function resume () {
             height='100%'
             src='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'
           />
+          <MainBG />
           <Header />
+          <SmallHeader />
         </div>
       </div>
     </div>

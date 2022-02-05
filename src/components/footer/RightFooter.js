@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Headshot from '../../../public/photos/headshot.jpeg'
+import Headshot from '../Headshot'
 import LogoBlack from '../LogoBlack'
 import Link from 'next/link'
 import GitHubIcon from '@mui/icons-material/GitHub'
@@ -10,18 +10,7 @@ import InstagramIcon from '@mui/icons-material/Instagram'
 function RightFooter () {
   return (
     <div className='pt-10 lg:pt-0'>
-      <div className='flex justify-center'>
-        <Link href='https://www.linkedin.com/in/liamkyoung/' passHref>
-          <Image
-            height={200}
-            width={200}
-            src={Headshot}
-            objectFit='contain'
-            className='rounded-full drop-shadow-2xl cursor-pointer'
-            alt='linkedin-img'
-          />
-        </Link>
-      </div>
+      <Headshot />
       <div className='m-8'>
         <div className='flex items-center justify-center'>
           <div className='flex max-w-sm max-h-20 items-center'>

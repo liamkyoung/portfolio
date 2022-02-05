@@ -1,27 +1,21 @@
 import React from 'react'
-import Link from 'next/link'
+import { useState } from 'react'
 import Logo from './Logo'
+import Menu from '@mui/icons-material/Menu'
+import SmallHeaderLinks from './SmallHeaderLinks'
 
 function SmallHeader () {
-    return (
-        <div className='absolute top-0 left-0 z-1000 w-full text-center flex justify-center md:hidden text-3xl font-paytone'>
-            <nav className='relative min-w-min'>
-            <Logo height={100} width={100} />
-                <Link href='/'>
-                    <ul className='headerBtn m-3'>code</ul>
-                </Link>
-                <Link href='/'>
-                    <ul className='headerBtn m-3'>photos</ul>
-                </Link>
-                <Link href='/'>
-                    <ul className='headerBtn m-3'>resume</ul>
-                </Link>
-                <Link href='/'>
-                    <ul className='headerBtn m-3'>about</ul>
-                </Link>
-            </nav>
-        </div>
-    )
+  const [opened, setOpen] = useState(false)
+
+  return (
+    <div className='w-full text-center flex justify-center lg:hidden text-3xl font-paytone'>
+      <nav className='relative min-w-min'>
+        <Logo height={100} width={100} />
+        <Menu onClick={() => setOpen(!opened)} />
+        {opened ? <SmallHeaderLinks /> : null }
+      </nav>
+    </div>
+  )
 }
 
 export default SmallHeader

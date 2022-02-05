@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Grid from '../components/photos/Grid'
 import Header from '../components/Header'
 import MainBG from '../components/backgrounds/MainBG'
+import SmallHeader from '../components/SmallHeader'
 
 function Photos () {
   return (
@@ -18,6 +19,7 @@ function Photos () {
       <div className='relative z-100'>
         <MainBG />
         <Header />
+        <SmallHeader />
         <div className='h-5' />
       </div>
       <div className='flex justify-center mt-44'>

@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Header from '../components/Header'
 import WorkSection from '../components/WorkSection'
+import SmallHeader from '../components/SmallHeader'
 import BgSVG from '../components/backgrounds/BgSVG'
 
 function Code () {
@@ -16,6 +17,7 @@ function Code () {
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
+      <SmallHeader />
       <div className='p-52'>
         <WorkSection />
       </div>

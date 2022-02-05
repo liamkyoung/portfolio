@@ -22,11 +22,15 @@
     }
 
     .skillDesc {
-        @apply font-reem max-w-sm my-2 text-center;
+        @apply font-reem my-2 text-center;
+    }
+
+    .skillWrapper {
+        @apply flex-col justify-center m-2 w-1/2;
     }
 
     .sectionHeading {
-        @apply font-notable text-4xl m-10;
+        @apply font-notable text-3xl md:text-4xl m-10;
     }
 
     .sectionHR {
