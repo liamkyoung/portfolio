@@ -11,7 +11,7 @@ function Skills () {
         <hr className='sectionHR' />
         <h1 className='sectionHeading'>Skills</h1>
         <hr className='sectionHR' />
-        <div className='md:flex md:justify-between md:align-center mt-16'>
+        <div className='flex-col flex lg:flex-row md:align-center md:justify-between justify-center items-center mt-16'>
           <WebDevelopment />
           <Creativity />
           <Photography />

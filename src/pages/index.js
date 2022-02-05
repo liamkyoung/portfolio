@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import TitlePage from '../components/TitlePage'
-import BgSVG from '../components/backgrounds/BgSVG'
 import MainBG from '../components/backgrounds/MainBG'
 import Skills from '../components/Skills'
 import WorkSection from '../components/WorkSection'
@@ -10,6 +9,7 @@ import Footer from '../components/Footer'
 import HomeAbout from '../components/HomeAbout'
 import Drip from '../components/Drip'
 import HomeAboutSVG from '../components/backgrounds/svgs/HomeAboutSVG'
+import SmallHeader from '../components/SmallHeader'
 
 export default function Home () {
   return (
@@ -27,15 +27,16 @@ export default function Home () {
       <div id='main_page' className='h-screen'>
         <MainBG />
         <Header />
+        <SmallHeader />
         <TitlePage />
       </div>
 
-      <section id='home_about' className='relative my-28 xl:my-36 2xl:my-36 h-96'>
+      <section id='home_about' className='relative my-32 xl:my-60 h-96'>
         <HomeAbout />
         <HomeAboutSVG />
       </section>
 
-      <div id='drip' className='relative h-96 -mt-16'>
+      <div id='drip' className='relative h-96 mt-80 -mb-60 md:-mt-16 md:mb-0'>
         <Drip />
       </div>
 

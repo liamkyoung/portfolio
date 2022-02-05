@@ -3,7 +3,7 @@ import DesktopWindowsTwoToneIcon from '@mui/icons-material/DesktopWindowsTwoTone
 
 function WebDevelopment () {
   return (
-    <div className='flex-col justify-center m-2'>
+    <div className='flex-col justify-center m-2 max-w-sm'>
       <div className=''>
         <h1 className='font-notable text-2xl'>Web Design</h1>
         <h1 className='font-notable'>and Development</h1>

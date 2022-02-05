@@ -26,14 +26,14 @@ function Carousel () {
         {PhotoData.map((photo, i) => {
           return (
             <SwiperSlide key={i} className=''>
-              <div className=''>
+              <div className='hover:opacity-90'>
                 <Image
                   src={photo.link}
-                  height={500}
-                  width={700}
+                  height={700}
+                  width={900}
                   objectFit='contain'
                   alt='image'
-                  className=''
+                  className='rounded-3xl'
                 />
               </div>
             </SwiperSlide>

@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Buttons () {
   return (
-    <div className='flex text-black items-start'>
+    <div className='flex text-black items-start md:justify-start justify-center animate-fade-in-down'>
       <Link href='/photos'>
         <h1 className='button'>All Photos</h1>
       </Link>
@@ -12,9 +12,8 @@ function Buttons () {
       </Link>
       <div>
         <Link href='/contact'>
-          <h1 className='button hover:font-bold'>Contact</h1>
+          <h1 className='button hover:font-bold'>Contact Me</h1>
         </Link>
-        <h2 className='text-portfolio-red text-sm font-paytone'>*looking for work!</h2>
       </div>
     </div>
   )
