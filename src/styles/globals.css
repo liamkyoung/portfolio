@@ -74,4 +74,18 @@
         display: grid;
         box-sizing: border-box;
     }
+
+    .speechTriangle {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid #181818;
+        border-top: 10px solid #181818;
+        border-bottom: 10px solid transparent;
+        left: -19px;
+        top: 6px;
+        opacity: 75%;
+    }
 }

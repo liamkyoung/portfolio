@@ -15,7 +15,7 @@ function Project ({ image, title, frameworks, desc, code, site, video }) {
             <Link href={video}><h1 className='button' passHref>{"<video>"}</h1></Link>
           </div>
       </div>
-      <div className='hidden md:flex cursor-pointer m-4'>
+      <div className='hidden md:flex cursor-pointer m-4 rounded-3xl'>
         <Link href={video}>
           <Image
               src={image}

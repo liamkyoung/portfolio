@@ -14,7 +14,7 @@ function TitlePage () {
       easing: 'easeInOutSine',
       duration: 4000,
       direction: 'alternate',
-      loop: true
+      loop: true,
     })
   }, [])
 
