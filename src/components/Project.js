@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 function Project ({ image, title, frameworks, desc, code, site, video }) {
   return (
-    <div className='bg-portfolio max-w-5xl rounded-3xl flex border-white border-2 align-center my-5 min-w-min'>
-      <div className='px-6 text-center md:text-left'>
+    <div className='bg-portfolio max-w-5xl rounded-3xl flex flex-col lg:flex-row border-white border-2 align-center my-5 min-w-min items-center'>
+      <div className='px-6 text-center lg:text-left'>
           <h1 className='text-4xl font-paytone pt-8 pb-4'>{title}</h1>
           <h2 className='text-xl font-reem hover:text-portfolio-red text-portfolio-orange'>{frameworks}</h2>
           <p className='text-lg font-reem pt-6 pb-6'>{desc}</p>
@@ -15,14 +15,16 @@ function Project ({ image, title, frameworks, desc, code, site, video }) {
             <Link href={video}><h1 className='button' passHref>{"<video>"}</h1></Link>
           </div>
       </div>
-      <div className='hidden md:flex cursor-pointer m-4 rounded-3xl'>
-        <Link href={video}>
-          <Image
+      <div className='lg:flex cursor-pointer m-4 flex-end'>
+        <Link href={video} target='_blank'>
+          <div className='rounded-2xl p-2 w-full'>
+            <Image
               src={image}
               alt='project-image'
               objectFit='contain'
-              className='rounded-3xl'
+              className='rounded-2xl min-w-full'
             />
+          </div>
         </Link>
 
       </div>

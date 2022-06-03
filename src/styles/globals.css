@@ -18,15 +18,15 @@
     }
 
     .skillIcons {
-        @apply m-4 hover:text-portfolio-pink text-7xl text-portfolio-red;
+        @apply m-4 hover:text-portfolio-pink text-portfolio-red;
     }
 
     .skillDesc {
-        @apply font-reem my-2 text-center;
+        @apply font-reem m-2 text-center;
     }
 
     .skillWrapper {
-        @apply flex-col justify-center m-2 w-1/2;
+        @apply flex-col justify-center m-2 w-3/4 lg:w-1/3;
     }
 
     .sectionHeading {
@@ -75,17 +75,26 @@
         box-sizing: border-box;
     }
 
-    .speechTriangle {
+    .speechTriangleLeft {
         content: "";
         width: 0px;
         height: 0px;
         position: absolute;
-        border-left: 10px solid transparent;
-        border-right: 10px solid #181818;
-        border-top: 10px solid #181818;
-        border-bottom: 10px solid transparent;
-        left: -19px;
-        top: 6px;
-        opacity: 75%;
+        border-left: 30px solid transparent;
+        border-right: 30px solid #181818;
+        border-top: 30px solid #181818;
+        border-bottom: 30px solid transparent;
+        left: -29px;
+        top: 0px;
+    }
+
+    .speechTriangleBottom {
+        content: "";
+        position: absolute;
+        top: 98%;
+        left: 48%;
+        border-width: 30px 30px 0px 30px;
+        border-style: solid;
+        border-color: #181818 transparent;
     }
 }

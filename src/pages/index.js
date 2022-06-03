@@ -32,12 +32,12 @@ export default function Home () {
         <TitlePage />
       </div>
 
-      <section id='home_about' className='relative my-32 xl:my-60 h-96'>
+      <section id='home_about' className='relative my-32 h-96 md:mt-48 lg:mt-0'>
         <HomeAbout />
         <HomeAboutSVG />
       </section>
 
-      <div id='drip' className='relative h-96 mt-80 -mb-60 md:-mt-16 md:mb-0'>
+      <div id='drip' className='relative h-96 -mb-60 md:mb-0'>
         <Drip />
       </div>
 
