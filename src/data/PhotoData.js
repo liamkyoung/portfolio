@@ -10,50 +10,51 @@ import StarBench from '../../public/photos/IMG_5675.jpg'
 import Bubbles from '../../public/photos/IMG_0426.jpg'
 import Pink from '../../public/photos/IMG_1961.jpg'
 
+
 export const PhotoData = [
   {
     link: Bird,
-    gridType: 'row-span-1 col-span-1'
-  },
-  {
-    link: Building,
-    gridType: 'row-span-2 col-span-1'
+    type: 'll'
   },
   {
     link: Boat,
-    gridType: 'row-span-1 col-span-1 md:col-span-2'
+    type: 'ls'
+  },
+  
+  {
+    link: Building,
+    type: 'pl'
   },
   {
     link: Flowers,
-    gridType: 'row-span-1 col-span-1'
-  },
-  {
-    link: Windmill,
-    gridType: 'row-span-2 col-span-1'
-  },
-  {
-    link: Bridge,
-    gridType: 'row-span-1 col-span-1'
-  },
-
-  {
-    link: Stairs,
-    gridType: 'row-span-1 col-span-1'
-  },
-  {
-    link: Swamp,
-    gridType: 'row-span-1 col-span-1'
-  },
-  {
-    link: StarBench,
-    gridType: 'row-span-1 col-span-1'
-  },
-  {
-    link: Bubbles,
-    gridType: 'row-span-1 col-span-1'
+    type: 'll'
   },
   {
     link: Pink,
-    gridType: 'row-span-1 col-span-1'
-  }
+    type: 'ls'
+  },
+  {
+    link: Bridge,
+    type: 'ls'
+  },
+  {
+    link: Stairs,
+    type: 'ps'
+  },
+  {
+    link: Swamp,
+    type: 'll'
+  },
+  {
+    link: StarBench,
+    type: 'pl'
+  },
+  {
+    link: Bubbles,
+    type: 'ls'
+  },
+  {
+    link: Windmill,
+    type: 'ps'
+  },
 ]

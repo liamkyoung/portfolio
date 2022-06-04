@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import LogoSVG from '../../public/logo_black.svg'
+import LogoSVG from '../../../public/logo_black.svg'
 import Link from 'next/link'
 
 function Logo ({ height, width }) {

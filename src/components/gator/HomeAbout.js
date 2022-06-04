@@ -1,5 +1,5 @@
 import React from 'react'
-import Gator from '../../public/cartoon_gator.png'
+import Gator from '../../../public/cartoon_gator.png'
 import anime from 'animejs'
 import Image from 'next/image'
 import SpeechBubble from './SpeechBubble'

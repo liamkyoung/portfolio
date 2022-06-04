@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import Logo from './Logo'
+import Logo from '../logos/Logo'
 import Menu from '@mui/icons-material/Menu'
 import SmallHeaderLinks from './SmallHeaderLinks'
 

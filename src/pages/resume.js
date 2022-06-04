@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import Header from '../components/Header'
+import SmallHeader from '../components/header/SmallHeader'
+import Header from '../components/header/Header'
 import MainBG from '../components/backgrounds/MainBG'
-import SmallHeader from '../components/SmallHeader'
 
 function resizeIframe (obj) {
   obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px'

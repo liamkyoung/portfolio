@@ -1,15 +1,15 @@
 import React from 'react'
 import BgSVG from '../components/backgrounds/BgSVG'
 import Head from 'next/head'
-import Header from '../components/Header'
 import MainBG from '../components/backgrounds/MainBG'
 import Information from '../components/about/Information'
 import Facts from '../components/about/Facts'
 import Timer from '../components/about/Timer'
 import MainContent from '../components/about/MainContent'
-import SmallHeader from '../components/SmallHeader'
 import AboutSVG from '../components/backgrounds/svgs/AboutSVG'
 import Headshot from '../components/Headshot'
+import SmallHeader from '../components/header/SmallHeader'
+import Header from '../components/header/Header'
 
 function About () {
   return (

@@ -1,9 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
 import Grid from '../components/photos/Grid'
-import Header from '../components/Header'
+import SmallHeader from '../components/header/SmallHeader'
+import Header from '../components/header/Header'
 import MainBG from '../components/backgrounds/MainBG'
-import SmallHeader from '../components/SmallHeader'
+import ImageModal from '../components/photos/ImageModal'
+import { ModalProvider } from '../components/photos/ModalProvider'
 
 function Photos () {
   return (
@@ -22,12 +24,12 @@ function Photos () {
         <SmallHeader />
         <div className='h-5' />
       </div>
-      <div className='flex justify-center mt-44'>
-        <Grid />
+      <div className='flex justify-center mt-44 -mb-44'>
+        <ModalProvider>
+          { /*<ImageModal /> */ }
+          <Grid />
+        </ModalProvider>
       </div>
-      {/* Header */}
-      {/* Menu */}
-      {/* Grid */}
     </div>
   )
 }

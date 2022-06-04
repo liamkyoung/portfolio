@@ -1,8 +1,8 @@
 import React from 'react'
 import BgSVG from '../components/backgrounds/BgSVG'
 import Head from 'next/head'
-import SmallHeader from '../components/SmallHeader'
-import Header from '../components/Header'
+import SmallHeader from '../components/header/SmallHeader'
+import Header from '../components/header/Header'
 
 function contact() {
   return (

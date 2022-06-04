@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import Header from '../components/Header'
 import WorkSection from '../components/WorkSection'
-import SmallHeader from '../components/SmallHeader'
+import SmallHeader from '../components/header/SmallHeader'
+import Header from '../components/header/Header'
 import BgSVG from '../components/backgrounds/BgSVG'
 
 function Code () {

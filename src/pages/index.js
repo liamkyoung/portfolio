@@ -1,15 +1,15 @@
 import Head from 'next/head'
-import Header from '../components/Header'
+import Header from '../components/header/Header'
 import TitlePage from '../components/TitlePage'
 import MainBG from '../components/backgrounds/MainBG'
 import Skills from '../components/Skills'
 import WorkSection from '../components/WorkSection'
 import PhotographySection from '../components/PhotographySection'
 import Footer from '../components/Footer'
-import HomeAbout from '../components/HomeAbout'
+import HomeAbout from '../components/gator/HomeAbout'
 import Drip from '../components/Drip'
 import HomeAboutSVG from '../components/backgrounds/svgs/HomeAboutSVG'
-import SmallHeader from '../components/SmallHeader'
+import SmallHeader from '../components/header/SmallHeader'
 
 
 export default function Home () {

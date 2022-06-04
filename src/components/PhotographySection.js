@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Carousel from './Carousel'
+import Carousel from './photos/Carousel'
 
 function PhotographySection () {
   return (
