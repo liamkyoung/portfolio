@@ -11,25 +11,50 @@ import 'swiper/css/pagination'
 
 SwiperCore.use([EffectFade, Navigation, Pagination])
 
+const getPhotos = () => {
+  const PHOTO_LIMIT = 5
+  let featuredPhotos = new Set()
+  for (let i = 0; i < PHOTO_LIMIT; i++) {
+    const chosenIndex = Math.floor(Math.random()*PhotoData.length)
+    const photo = PhotoData[chosenIndex]
+
+    !featuredPhotos.has(photo) ? featuredPhotos.add(photo) : i--
+  }
+
+  return Array.from(featuredPhotos)
+}
+
 // Should be uploading all images to an S3 Bucket to use. For now I'll keep them in the public folder.
 function Carousel () {
   return (
     <div className='flex justify-center'>
       <Swiper
-        slidesPerView='3'
         spaceBetween={30}
-        navigation
         loop
         pagination={{ clickable: true }}
         className='mySwiper'
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
       >
-        {PhotoData.map((photo, i) => {
+        {getPhotos().map((photo, i) => {
           return (
             <SwiperSlide key={i} className=''>
-              <div className='hover:opacity-90'>
+              <div className='hover:opacity-90 rounded-full'>
                 <Image
-                  src={photo.link}
-                  height={700}
+                  src={photo.link + '-/preview/'}
+                  height={900}
                   width={900}
                   objectFit='contain'
                   alt='image'

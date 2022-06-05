@@ -3,6 +3,7 @@ import Head from 'next/head'
 import SmallHeader from '../components/header/SmallHeader'
 import Header from '../components/header/Header'
 import MainBG from '../components/backgrounds/MainBG'
+import Link from 'next/link'
 
 function resizeIframe (obj) {
   obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px'
@@ -19,22 +20,29 @@ function resume () {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
-      <div className='h-screen relative'>
+      <div className='h-screen bg-portfolio-gray'>
         {/* <BgSVG /> */}
-        
-        <div className='flex justify-center min-h-3/4 max-h-screen relative z-100 pt-36'>
-          <iframe
-            className='absolute border-portfolio-red border-4'
-            title='Resume'
-            width='60%'
-            height='100%'
-            src='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'
-          />
-          <MainBG />
+        <div className='mb-12 h-1/6'>
           <Header />
           <SmallHeader />
         </div>
-      </div>
+        
+          {/* <div className='pb-4 button max-w-max'>
+            <Link href='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'>
+              <h1 className=''>Google Drive Link</h1>
+            </Link>
+          </div> */}
+          <div className='flex justify-center h-full relative overflow-hidden bg-portfolio-gray'>
+            <iframe
+              className='absolute border-portfolio-red border-4 min-w-min'
+              title='Resume'
+              width='95%'
+              height='90%'
+              src='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'
+            />
+          </div>
+          
+        </div>
     </div>
   )
 }

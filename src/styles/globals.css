@@ -10,7 +10,7 @@
     }
 
     .headerBtn {
-        @apply mx-7 px-3 pb-1 cursor-pointer border-white backdrop-blur-lg rounded-lg border-2 hover:text-black hover:bg-white;
+        @apply mx-3 lg:mx-7 px-3 pb-1 cursor-pointer border-white backdrop-blur-lg rounded-lg border-2 hover:text-black hover:bg-white;
     }
 
     .inputField {

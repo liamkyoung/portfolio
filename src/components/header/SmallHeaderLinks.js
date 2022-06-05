@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function SmallHeaderLinks() {
   return (
-    <div className='animate-fade-in-down'>
+    <div className='absolute -bottom-92 -left-32 animate-fade-in-down bg-portfolio opacity-100 rounded-lg z-50 w-96 p-4'>
       <Link href='/code'>
         <ul className='headerBtn my-5'>code</ul>
       </Link>

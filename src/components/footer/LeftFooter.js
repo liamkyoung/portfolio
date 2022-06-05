@@ -20,23 +20,23 @@ function LeftFooter () {
   }
 
   return (
-    <div className='mx-12 -mt-7 mb-7 flex-grow'>
+    <div className='mx-2 lg:mx-12 -mt-7 mb-7 flex-grow'>
       <form className='' ref={form} onSubmit={sendEmail}>
-        <div className='flex-col lg:flex-row flex mx-3 items-center max-w-full'>
-          <div className='m-5 flex-auto'>
+        <div className='flex-col lg:flex-row flex -mx-5 lg:mx-3 items-start max-w-full'>
+          <div className='m-5 flex-auto w-full md:w-1/2'>
             <h1 className='font-paytone'>name</h1>
             <input className='inputField min-w-full' type='text' name='name' />
           </div>
-          <div className='my-5 mx-5 lg:mx-10 flex-auto'>
+          <div className='my-5 mx-5 lg:mx-10 flex-auto w-full md:w-1/2'>
             <h1 className='font-paytone'>e-mail</h1>
             <input className='inputField min-w-full' type='email' name='user_email' />
           </div>
-          <div className='mx-5 lg:mx-8 my-5 flex-auto'>
+          <div className='mx-5 lg:mx-8 my-5 flex-auto w-full md:w-1/2'>
             <h1 className='font-paytone'>subject</h1>
             <input className='inputField min-w-full' type='text' name='subject' />
           </div>
         </div>
-        <div className='mx-8 my-5 w-full'>
+        <div className='m-0 lg:mx-8 lg:my-5 w-full'>
           <h1 className='font-paytone'>message</h1>
           <textarea className='inputField min-w-full min-h-1/4 resize-none' name='message' />
           <div className='flex justify-center'>

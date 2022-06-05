@@ -20,10 +20,12 @@ function Grid () {
           return (
             <div key={i} className={imageSize + ' rounded-lg'} >
               <Image
-                src={photo.link}
+                src={photo.link + '-/preview/'}
                 objectFit='cover'
                 className='w-full h-full overflow-hidden cursor-pointer rounded-lg'
                 alt='gallery-img'
+                width='500px'
+                height='500px'
                 onClick={() => changeClicked(true)}
               />
             </div>

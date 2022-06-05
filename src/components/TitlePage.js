@@ -20,7 +20,7 @@ function TitlePage () {
 
   return (
     <div className='flex items-center'>
-      <div className='sm:my-24 md:my-32 md:mx-16 lg:mx-24 lg:my-48 xl:mx-24 xl:my-52 2xl:m-60 relative z-100'>
+      <div className='sm:my-24 md:my-32 md:mx-16 lg:mx-24 lg:my-48 xl:mx-24 xl:my-52 2xl:m-60 relative z-50'>
         <div id='title' className='animate-fade-in-down'>
           <Title />
           <SubTitle />
