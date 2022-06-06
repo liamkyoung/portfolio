@@ -14,7 +14,7 @@
     }
 
     .inputField {
-        @apply rounded-lg bg-portfolio text-white font-light p-1;
+        @apply rounded-lg bg-portfolio text-white font-light p-1 min-w-full font-paytone;
     }
 
     .skillIcons {

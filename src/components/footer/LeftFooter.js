@@ -25,15 +25,15 @@ function LeftFooter () {
         <div className='flex-col lg:flex-row flex -mx-5 lg:mx-3 items-start max-w-full'>
           <div className='m-5 flex-auto w-full md:w-1/2'>
             <h1 className='font-paytone'>name</h1>
-            <input className='inputField min-w-full' type='text' name='name' />
+            <input className='inputField' type='text' name='name' />
           </div>
           <div className='my-5 mx-5 lg:mx-10 flex-auto w-full md:w-1/2'>
             <h1 className='font-paytone'>e-mail</h1>
-            <input className='inputField min-w-full' type='email' name='user_email' />
+            <input className='inputField' type='email' name='user_email' />
           </div>
           <div className='mx-5 lg:mx-8 my-5 flex-auto w-full md:w-1/2'>
             <h1 className='font-paytone'>subject</h1>
-            <input className='inputField min-w-full' type='text' name='subject' />
+            <input className='inputField' type='text' name='subject' />
           </div>
         </div>
         <div className='m-0 lg:mx-8 lg:my-5 w-full'>
