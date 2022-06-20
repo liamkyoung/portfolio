@@ -2,6 +2,7 @@ import React from 'react'
 import WebDevelopment from './skills/WebDevelopment'
 import Creativity from './skills/Creativity'
 import Photography from './skills/Photography'
+import Design from './skills/Design'
 import Link from 'next/link'
 
 function Skills () {
@@ -12,8 +13,8 @@ function Skills () {
         <h1 className='sectionHeading'>Skills</h1>
         <hr className='sectionHR' />
         <div className='flex-col flex lg:flex-row md:align-center md:justify-between justify-center items-center lg:items-start mt-16'>
+          <Design />
           <WebDevelopment />
-          <Creativity />
           <Photography />
         </div>
         <div className='flex justify-center'>

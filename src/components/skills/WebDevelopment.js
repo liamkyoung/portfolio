@@ -5,8 +5,7 @@ function WebDevelopment () {
   return (
     <div className='skillWrapper'>
       <div className=''>
-        <h1 className='font-notable text-2xl'>Web Design</h1>
-        <h1 className='font-notable'>and Development</h1>
+        <h1 className='font-notable m-3 text-2xl'>Development</h1>
       </div>
       <DesktopWindowsTwoToneIcon className='skillIcons' sx={{ fontSize: '4rem' }} />
       <div className='mb-10'>
