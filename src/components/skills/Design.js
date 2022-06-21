@@ -8,7 +8,7 @@ function Design () {
       <AutoFixHighTwoToneIcon className='skillIcons' sx={{ fontSize: '4rem' }} />
       <div className='mb-10'>
         <h3 className='skillDesc'>
-            I've fallen in love with designing applications and harnessing my inner child to draw and express myself. 
+            I&apos;ve fallen in love with designing applications and harnessing my inner child to draw and express myself. 
             I enjoy wielding my creativity to make others happy and make meaningful art.
         </h3>
       </div>
