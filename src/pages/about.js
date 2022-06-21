@@ -8,7 +8,7 @@ import Header from '../components/header/Header'
 
 function About () {
   return (
-    <div className='bg-portfolio-gray min-h-screen text-white overflow-x-hidden'>
+    <div className='bg-portfolio-gray min-h-screen text-white overflow-hidden'>
       <Head>
         <title>About | LKY </title>
         <meta name='description' content="LKY's Website" />

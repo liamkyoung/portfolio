@@ -11,7 +11,7 @@ function resizeIframe (obj) {
 
 function resume () {
   return (
-    <div className='bg-portfolio-gray min-h-screen text-white'>
+    <div className='bg-portfolio-gray min-h-screen text-white overflow-hidden'>
       <Head>
         <title>Resume | LKY </title>
         <meta name='description' content="LKY's Website" />
@@ -20,28 +20,23 @@ function resume () {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
       </Head>
-      <div className='h-screen bg-portfolio-gray'>
-        {/* <BgSVG /> */}
+      <MainBG />
+      
         <div className='mb-12 h-1/6'>
           <Header />
           <SmallHeader />
         </div>
         
-          {/* <div className='pb-4 button max-w-max'>
-            <Link href='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'>
-              <h1 className=''>Google Drive Link</h1>
-            </Link>
-          </div> */}
-          <div className='flex justify-center h-full relative overflow-hidden bg-portfolio-gray'>
+          <div className='mt-44 flex'>
+          <div className='h-screen w-full relative flex justify-center m-auto'>
             <iframe
-              className='absolute border-portfolio-red border-4 min-w-min'
+              className='absolute border-portfolio-red border-4 min-w-min z-30'
               title='Resume'
               width='95%'
               height='90%'
               src='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'
             />
           </div>
-          
         </div>
     </div>
   )
