@@ -9,11 +9,11 @@ import InstagramIcon from '@mui/icons-material/Instagram'
 
 function RightFooter () {
   return (
-    <div className='pt-10 lg:pt-0'>
+    <div className='pt-10 xl:pt-0'>
       <Headshot />
       <div className='m-8'>
         <div className='flex items-center justify-center'>
-          <div className='flex max-w-sm max-h-20 items-center'>
+          <div className='flex max-h-20 items-center'>
             <Link href='https://github.com/liamkyoung' passHref>
               <div className='button hover:text-portfolio-yellow'>
                 <GitHubIcon />

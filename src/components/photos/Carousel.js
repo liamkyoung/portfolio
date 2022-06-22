@@ -27,12 +27,12 @@ const getPhotos = () => {
 // Should be uploading all images to an S3 Bucket to use. For now I'll keep them in the public folder.
 function Carousel () {
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center min-h-3/4'>
       <Swiper
         spaceBetween={30}
         loop
         pagination={{ clickable: true }}
-        className='mySwiper'
+        className='mySwiper min-h-3/4'
         breakpoints={{
           640: {
             slidesPerView: 1,
@@ -50,15 +50,16 @@ function Carousel () {
       >
         {getPhotos().map((photo, i) => {
           return (
-            <SwiperSlide key={i} className=''>
-              <div className='hover:opacity-90 rounded-full'>
+            <SwiperSlide key={i} className='min-h-3/4 w-min'>
+              <div className='hover:opacity-90 rounded-full w-80 h-full'>
                 <Image
                   src={photo.link + '-/preview/'}
-                  height={900}
-                  width={900}
+                  layout='fill'
                   objectFit='contain'
                   alt='image'
-                  className='rounded-3xl'
+                  className='rounded-3xl cursor-pointer'
+                  blurDataURL='public/photos/load_image.PNG'
+                  placeholder='blur'
                 />
               </div>
             </SwiperSlide>
