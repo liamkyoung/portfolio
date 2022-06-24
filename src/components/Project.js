@@ -7,7 +7,7 @@ function Project ({ image, title, frameworks, desc, code, site, video }) {
     <div className='bg-portfolio max-w-5xl rounded-3xl flex flex-col lg:flex-row border-white border-2 align-center my-5 min-w-min items-center'>
       <div className='px-6 text-center lg:text-left'>
           <h1 className='text-4xl font-paytone pt-8 pb-4'>{title}</h1>
-          <h2 className='text-xl font-reem hover:text-portfolio-red text-portfolio-orange'>{frameworks}</h2>
+          <h2 className='text-xl font-secular hover:text-portfolio-red text-portfolio-orange'>{frameworks}</h2>
           <p className='text-lg font-reem pt-6 pb-6'>{desc}</p>
           <div className='flex justify-center pb-5'>
             <Link href={code}><h1 className='button' passHref>{"<code>"}</h1></Link>

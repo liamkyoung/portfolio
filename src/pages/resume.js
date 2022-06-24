@@ -30,7 +30,7 @@ function resume () {
           <div className='mt-44 flex'>
           <div className='h-screen w-full relative flex justify-center m-auto'>
             <iframe
-              className='absolute border-portfolio-red border-4 min-w-min z-30'
+              className='absolute border-portfolio-white border-4 min-w-min z-30'
               title='Resume'
               width='95%'
               height='90%'

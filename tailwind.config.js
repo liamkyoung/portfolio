@@ -40,7 +40,9 @@ module.exports = {
       monsterrat: "'Montserrat', 'sans-serif'",
       notable: "'Notable', 'sans-serif'",
       paytone: "'Paytone One', 'sans-serif'",
-      reem: "'Reem Kufi', 'sans-serif'"
+      reem: "'Reem Kufi', 'sans-serif'",
+      secular: "'Secular One', 'sans-serif'",
+      nunito: "'Nunito', 'sans-serif'"
     },
     minHeight: {
       '0': '0',

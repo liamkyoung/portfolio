@@ -12,7 +12,7 @@ import MainBG from '../components/backgrounds/MainBG'
 
 function Code () {
   return (
-    <div className='bg-portfolio-gray text-white min-h-screen'>
+    <div className='bg-portfolio-gray text-white min-h-screen overflow-hidden'>
       <Head>
         <title>Code | LKY </title>
         <meta name='description' content="LKY's Website" />
@@ -20,14 +20,15 @@ function Code () {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800;900&family=Secular+One&display=swap" rel="stylesheet" />
       </Head>
       <MainBG />
       <Header />
       <SmallHeader />
-      <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 justify-center content-center overflow-x-hidden relative h-screen'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 content-center overflow-x-hidden relative pt-32'>
       {ProjectData.map((proj, i) => {
           return (
-            <div key={i} className='flex justify-center mx-5 min-w-min'>
+            <div key={i} className='flex justify-center mx-5 lg:mx-2 min-w-min'>
               <Project
                 title={proj.title}
                 frameworks={proj.frameworks}

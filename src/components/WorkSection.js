@@ -16,6 +16,9 @@ function WorkSection () {
         <h1 className='sectionHeading text-center'>Featured Work</h1>
         <hr className='sectionHR' />
         {ProjectData.map((proj, i) => {
+          if (i > 2) 
+            return
+
           return (
             <div key={i} className='flex justify-center'>
               <Project

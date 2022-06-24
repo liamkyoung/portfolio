@@ -22,7 +22,7 @@
     }
 
     .skillDesc {
-        @apply font-reem m-2 text-center;
+        @apply font-secular m-2 text-center;
     }
 
     .skillWrapper {
