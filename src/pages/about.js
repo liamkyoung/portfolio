@@ -21,7 +21,7 @@ function About () {
       <MainBG />
       <Header />
       <SmallHeader />
-      <div className='flex justify-center items-center h-screen relative'>
+      <div className='flex justify-center items-center mt-48 mb-24 relative'>
         <MainContent />
       </div>
     </div>

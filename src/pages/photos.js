@@ -17,6 +17,7 @@ function Photos () {
         <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
         <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap' rel='stylesheet' />
         <link href='https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap' rel='stylesheet' />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800;900&family=Secular+One&display=swap" rel="stylesheet" />
       </Head>
       <div className='relative z-100'>
         <MainBG />
@@ -26,7 +27,9 @@ function Photos () {
       </div>
       <div className='flex justify-center mt-44 -mb-44'>
         <ModalProvider>
-          { /*<ImageModal /> */ }
+          <div className='relative'>
+            <ImageModal />
+          </div>
           <Grid />
         </ModalProvider>
       </div>

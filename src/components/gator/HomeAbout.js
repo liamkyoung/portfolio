@@ -26,6 +26,7 @@ function HomeAbout () {
             <Image
               src={Gator}
               objectFit='fixed'
+              alt='gator'
             />
           </div>
           <SpeechBubble />
