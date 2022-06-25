@@ -3,22 +3,26 @@ import { ModalContext } from './ModalContext'
 
 export const ModalProvider = ({ children }) => {
     const [clicked, setClicked] = useState(false)
-    const [imageName, setImageName] = useState('')
-    const [imageLink, setImageLink] = useState('')
+    const [image, setImage] = useState(
+        {
+            name: "", 
+            link: ""
+        }
+    )
 
     const changeImage = (name, link) => {
-        setImageName(name)
-        setImageLink(link)
+        setImage({name: name, link: link})
+        console.log(image)
     }
 
     const changeClicked = (value) => {
-        setClicked(!clicked)
-        console.log(clicked)
+        setClicked(value)
+        console.log(value)
     }
 
 
     return (
-        <ModalContext.Provider value={{ clicked, imageName, imageLink, changeImage, changeClicked }}>
+        <ModalContext.Provider value={{ clicked, image, changeImage, changeClicked }}>
             {children}
         </ModalContext.Provider>
     )

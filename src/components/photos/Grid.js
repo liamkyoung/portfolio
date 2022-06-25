@@ -8,8 +8,10 @@ const LANDSCAPE_SMALL = 'row-span-2 col-span-3'
 
 const PORTRAIT_LARGE = 'row-span-6 col-span-4'
 const PORTRAIT_SMALL = 'row-span-3 col-span-2'
+
 function Grid () {
   const { clicked, changeClicked } = useContext(ModalContext)
+  const { image, changeImage } = useContext(ModalContext)
   // Landscape: w x h => 3 x 2
   // Portait: w x h => 2 x 3
   return (
@@ -26,7 +28,10 @@ function Grid () {
                 alt='gallery-img'
                 width='500px'
                 height='500px'
-                onClick={() => changeClicked(true)}
+                onClick={() => {
+                  changeClicked(true)
+                  changeImage(photo.name, photo.link)
+                }}
               />
             </div>
           )

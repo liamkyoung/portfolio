@@ -9,12 +9,18 @@
         text-black hover:bg-portfolio-orange drop-shadow-sm;
     }
 
+    .alt-button {
+        @apply font-paytone cursor-pointer py-2 md:py-3 px-3 mx-6 my-3 text-sm text-center md:text-base
+        bg-portfolio-orange rounded-lg border-portfolio-dark_yellow border-2 focus:outline-none 
+        text-black hover:bg-portfolio-red drop-shadow-sm;
+    }
+
     .headerBtn {
         @apply mx-3 lg:mx-7 px-3 pb-1 cursor-pointer border-white backdrop-blur-lg rounded-lg border-2 hover:text-black hover:bg-white;
     }
 
     .inputField {
-        @apply rounded-lg bg-portfolio text-white font-light p-1 min-w-full font-paytone;
+        @apply rounded-lg bg-portfolio text-white font-light p-1 font-paytone;
     }
 
     .skillIcons {
@@ -73,6 +79,14 @@
     .photoGrid {
         display: grid;
         box-sizing: border-box;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .imageModal {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .speechTriangleLeft {
