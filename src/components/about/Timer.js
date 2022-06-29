@@ -34,7 +34,7 @@ function Timer () {
             return
 
         clock.push(
-            <span className='font-secular text-lg bg-portfolio-red px-1'>
+            <span className='font-secular text-sm md:text-lg bg-portfolio-red px-1'>
                 {timeLeft[interval]} {interval} {" "}
             </span>
         )
@@ -43,7 +43,7 @@ function Timer () {
 
     return (
         <div className='text-center'>
-          <h1 className='font-notable pb-2 text-lg'>Countdown Until Graduation</h1>
+          <h1 className='font-notable pb-2 text-sm sm:text-md md:text-lg'>Countdown Until Graduation</h1>
           <h1>{clock}</h1>  
         </div>
     )

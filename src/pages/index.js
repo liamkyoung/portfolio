@@ -11,7 +11,6 @@ import Drip from '../components/Drip'
 import HomeAboutSVG from '../components/backgrounds/svgs/HomeAboutSVG'
 import SmallHeader from '../components/header/SmallHeader'
 
-
 export default function Home () {
   return (
     <div className='bg-portfolio-gray min-h-screen text-white overflow-hidden flex flex-col'>

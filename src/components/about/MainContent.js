@@ -7,6 +7,7 @@ import ShrinkIcon from '@mui/icons-material/ExpandLess'
 import LeftFooter from '../footer/LeftFooter'
 import ContactForm from '../contact/ContactForm'
 import AboutPic from '../AboutPic'
+import Interests from './Interests'
 
 function MainContent () {
   const [opened, setOpened] = useState(false)
@@ -21,14 +22,7 @@ function MainContent () {
           <AboutPic />
           <div className='pt-5'>
             <Timer />
-            <div className='text-lg'>
-              <h1 className='font-notable text-center my-5'>My current interests</h1>
-              <div className='flex justify-between'>
-                <h2 className='bg-portfolio-pink p-2'>Counter-Strike</h2>
-                <h2 className='bg-portfolio-orange p-2' >Skateboarding</h2>
-                <h2 className='bg-portfolio-yellow p-2' >Physical Fitness</h2>
-              </div>
-            </div>
+            <Interests />
             <div className='mt-5 mb-5 border-t-2 border-b-2 px-8 py-8 text-lg text-center'>
               <h1>I&apos;m an eager and down-to-earth developer ready to pounce on exciting opprotunities!</h1><br />
               <div className='bg-portfolio-yellow text-portfolio rounded-sm p-2'>

@@ -16,8 +16,6 @@ function Code () {
       <Head>
         <title>Code | LKY </title>
         <meta name='description' content="LKY's Website" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
       </Head>
       <MainBG />
       <Header />
@@ -25,7 +23,7 @@ function Code () {
       <div className='grid grid-cols-1 lg:grid-cols-2 content-center overflow-x-hidden relative pt-32'>
       {ProjectData.map((proj, i) => {
           return (
-            <div key={i} className='flex justify-center mx-5 lg:mx-2 min-w-min'>
+            <div key={i} className='flex justify-center mx-5 lg:mx-2'>
               <Project
                 title={proj.title}
                 frameworks={proj.frameworks}
