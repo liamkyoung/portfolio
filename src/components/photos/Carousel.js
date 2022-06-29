@@ -51,15 +51,13 @@ function Carousel () {
         {getPhotos().map((photo, i) => {
           return (
             <SwiperSlide key={i} className='min-h-3/4 w-min'>
-              <div className='hover:opacity-90 rounded-full w-80 h-full'>
+              <div className='hover:opacity-90 rounded-full w-80'>
                 <Image
                   src={photo.link + '-/preview/'}
                   layout='fill'
                   objectFit='contain'
                   alt='image'
-                  className='rounded-3xl cursor-pointer'
-                  blurDataURL='public/photos/load_image.PNG'
-                  placeholder='blur'
+                  className='rounded-3xl cursor-pointer hover:opacity-90'
                 />
               </div>
             </SwiperSlide>

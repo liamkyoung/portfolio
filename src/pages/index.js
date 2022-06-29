@@ -21,9 +21,6 @@ export default function Home () {
         <link rel='icon' href='/favicon.ico' />
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
-        <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap' rel='stylesheet' />
-        <link href='https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap' rel='stylesheet' />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800;900&family=Secular+One&display=swap" rel="stylesheet" />
       </Head>
 
       <div id='main_page' className='h-screen'>
@@ -33,7 +30,7 @@ export default function Home () {
         <TitlePage />
       </div>
 
-      <section id='home_about' className='relative my-32 h-96 md:mt-48 lg:mt-0'>
+      <section id='home_about' className='relative my-48 h-96 md:mt-48 lg:mt-0'>
         <HomeAbout />
         <HomeAboutSVG />
       </section>

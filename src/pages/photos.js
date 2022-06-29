@@ -25,7 +25,7 @@ function Photos () {
         <SmallHeader />
         <div className='h-5' />
       </div>
-      <div className='flex justify-center mt-44 -mb-44'>
+      <div className='flex justify-center mt-36 -mb-36'>
         <ModalProvider>
           <div className='relative'>
             <ImageModal />

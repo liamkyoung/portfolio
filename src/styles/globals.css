@@ -20,7 +20,7 @@
     }
 
     .inputField {
-        @apply rounded-lg bg-portfolio text-white font-light p-1 font-paytone;
+        @apply rounded-lg bg-portfolio text-white font-light p-1 min-w-full font-paytone;
     }
 
     .skillIcons {
@@ -41,6 +41,14 @@
 
     .sectionHR {
         @apply border-t-4 rounded-full m-5;
+    }
+
+    .photoGrid {
+        @apply m-1;
+    }
+
+    .photoItem {
+        transition: 0.5s ease-in-out;
     }
 
     .dripContaner {
@@ -74,12 +82,6 @@
         position: relative;
         overflow: hidden;
         z-index: 0;
-    }
-
-    .photoGrid {
-        display: grid;
-        box-sizing: border-box;
-        grid-auto-rows: minmax(100px, auto);
     }
 
     .imageModal {

@@ -18,14 +18,11 @@ function Code () {
         <meta name='description' content="LKY's Website" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Notable&family=Paytone+One&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800;900&family=Secular+One&display=swap" rel="stylesheet" />
       </Head>
       <MainBG />
       <Header />
       <SmallHeader />
-      <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 content-center overflow-x-hidden relative pt-32'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 content-center overflow-x-hidden relative pt-32'>
       {ProjectData.map((proj, i) => {
           return (
             <div key={i} className='flex justify-center mx-5 lg:mx-2 min-w-min'>

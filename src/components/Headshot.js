@@ -6,7 +6,7 @@ import Image from 'next/image'
 function Headshot() {
   return (
     <div className='flex justify-center'>
-    <Link href='https://www.linkedin.com/in/liamkyoung/' passHref>
+    <Link href='/about' passHref>
       <Image
         height={200}
         width={200}

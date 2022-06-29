@@ -3,11 +3,11 @@ import Image from 'next/image'
 import { PhotoData } from '../../data/PhotoData'
 import { ModalContext } from './ModalContext'
 
-const LANDSCAPE_LARGE = 'row-span-4 col-span-6'
-const LANDSCAPE_SMALL = 'row-span-2 col-span-3'
+const LANDSCAPE_LARGE = 'col-span-1'
+const LANDSCAPE_SMALL = 'col-span-1'
 
-const PORTRAIT_LARGE = 'row-span-6 col-span-4'
-const PORTRAIT_SMALL = 'row-span-3 col-span-2'
+const PORTRAIT_LARGE = 'col-span-1'
+const PORTRAIT_SMALL = 'col-span-1'
 
 function Grid () {
   const { clicked, changeClicked } = useContext(ModalContext)
@@ -15,16 +15,16 @@ function Grid () {
   // Landscape: w x h => 3 x 2
   // Portait: w x h => 2 x 3
   return (
-    <div className='flex w-3/4 justify-center'>
-      <div className='photoGrid grid-cols-6 lg:grid-cols-9 2xl:grid-cols-12 p-2 gap-2 grid-flow-row-dense'>
+    <div className='flex justify-center'>
+      <div className='grid p-2 gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 grid-flow-row-dense'>
         {PhotoData.map((photo, i) => {
           const imageSize = resizeImage(photo.type)
           return (
-            <div key={i} className={imageSize + ' rounded-lg'} >
+            <div key={i} className={imageSize + ' rounded-lg overflow-hidden w-full h-full'} >
               <Image
                 src={photo.link + '-/preview/'}
                 objectFit='cover'
-                className='w-full h-full overflow-hidden cursor-pointer rounded-lg'
+                className='cursor-pointer rounded-lg w-full h-full hover:scale-125 transform duration-300 overflow-hidden object-center'
                 alt='gallery-img'
                 width='500px'
                 height='500px'

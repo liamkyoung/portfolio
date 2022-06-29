@@ -3,6 +3,7 @@ import Link from 'next/link'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import InstagramIcon from '@mui/icons-material/Instagram'
+import EmailIcon from '@mui/icons-material/Email'
 
 function SocialButtons() {
   return (
@@ -14,14 +15,19 @@ function SocialButtons() {
                 <GitHubIcon />
                 </div>
             </Link>
+            <Link href='https://www.linkedin.com/in/liamkyoung/' passHref>
+                <div className='button hover:text-portfolio-yellow'>
+                <LinkedInIcon />
+                </div>
+            </Link>
             <Link href='https://instagram.com/liamkyoung' passHref>
                 <div className='button hover:text-portfolio-yellow'>
                 <InstagramIcon />
                 </div>
             </Link>
-            <Link href='https://www.linkedin.com/in/liamkyoung/' passHref>
+            <Link href='mailto:liamkingstonyoung@gmail.com' passHref>
                 <div className='button hover:text-portfolio-yellow'>
-                <LinkedInIcon />
+                <EmailIcon />
                 </div>
             </Link>
             </div>

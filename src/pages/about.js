@@ -21,7 +21,7 @@ function About () {
       <MainBG />
       <Header />
       <SmallHeader />
-      <div className='flex justify-center items-center mt-48 mb-24 relative'>
+      <div className='flex justify-center items-center mt-48 mb-24 relative animate-fade-in-down'>
         <MainContent />
       </div>
     </div>
