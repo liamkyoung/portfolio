@@ -11,7 +11,7 @@ import Drip from '../components/Drip'
 import HomeAboutSVG from '../components/backgrounds/svgs/HomeAboutSVG'
 import SmallHeader from '../components/header/SmallHeader'
 
-export default function Home () {
+export default function Home() {
   return (
     <div className='bg-portfolio-gray min-h-screen text-white overflow-hidden flex flex-col'>
       <Head>
@@ -28,7 +28,7 @@ export default function Home () {
         <SmallHeader />
         <TitlePage />
       </div>
-
+      <div id='home_about_above'></div>
       <section id='home_about' className='relative my-48 h-96 md:mt-48 lg:mt-0'>
         <HomeAbout />
         <HomeAboutSVG />

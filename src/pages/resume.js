@@ -5,37 +5,41 @@ import Header from '../components/header/Header'
 import MainBG from '../components/backgrounds/MainBG'
 import Link from 'next/link'
 
-function resizeIframe (obj) {
-  obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px'
+function resizeIframe(obj) {
+  obj.style.height =
+    obj.contentWindow.document.documentElement.scrollHeight + 'px'
 }
 
-function resume () {
+function resume() {
   return (
     <div className='bg-portfolio-gray min-h-screen text-white overflow-hidden'>
       <Head>
         <title>Resume | LKY </title>
         <meta name='description' content="LKY's Website" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link>
+        <link rel='preconnect' href='https://fonts.googleapis.com'></link>
+        <link
+          rel='preconnect'
+          href='https://fonts.gstatic.com'
+          crossOrigin></link>
       </Head>
       <MainBG />
-      
-        <div className='mb-12 h-1/6'>
-          <Header />
-          <SmallHeader />
+
+      <div className='mb-12 h-1/6'>
+        <Header />
+        <SmallHeader />
+      </div>
+
+      <div className='mt-44 flex'>
+        <div className='h-screen w-full relative flex justify-center m-auto'>
+          <iframe
+            className='absolute border-portfolio-white border-4 min-w-min z-30'
+            title='Resume'
+            width='95%'
+            height='90%'
+            src='https://drive.google.com/file/d/1gz7YmjWrbiDfEJco5-qQLyCG8GkCyB_-/preview'
+          />
         </div>
-        
-          <div className='mt-44 flex'>
-          <div className='h-screen w-full relative flex justify-center m-auto'>
-            <iframe
-              className='absolute border-portfolio-white border-4 min-w-min z-30'
-              title='Resume'
-              width='95%'
-              height='90%'
-              src='https://drive.google.com/file/d/1m85usoJdAmYiLqfYSQTUwA_8RRAokXKF/preview'
-            />
-          </div>
-        </div>
+      </div>
     </div>
   )
 }

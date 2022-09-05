@@ -1,6 +1,7 @@
 import React from 'react'
+import ScrollButton from '../contact/ScrollButton'
 
-function SubTitle () {
+function SubTitle() {
   return (
     <div className=''>
       <div className='flex align-bottom justify-center md:justify-start'>
@@ -14,7 +15,9 @@ function SubTitle () {
         </div>
         <div className='text-lg md:text-3xl bg-opacity-25 text-right md:text-left'>
           <h1 className='text-portfolio-pink my-1 sm:my-1 md:my-0'>TECH</h1>
-          <h1 className='text-portfolio-red my-2 sm:my-2 md:my-0 lg:my-2'>DESIGN</h1>
+          <h1 className='text-portfolio-red my-2 sm:my-2 md:my-0 lg:my-2'>
+            DESIGN
+          </h1>
           <h1 className='text-portfolio-orange md:my-1'>CHALLENGE</h1>
         </div>
       </div>

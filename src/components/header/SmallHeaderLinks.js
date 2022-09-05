@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import ScrollButton from '../contact/ScrollButton'
 
 function SmallHeaderLinks() {
   return (
@@ -16,6 +17,7 @@ function SmallHeaderLinks() {
       <Link href='/about'>
         <ul className='headerBtn my-5'>about</ul>
       </Link>
+      <ScrollButton text='Contact Me' element='footer' />
     </div>
   )
 }

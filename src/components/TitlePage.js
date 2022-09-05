@@ -4,7 +4,7 @@ import Title from './titles/Title'
 import SubTitle from './titles/SubTitle'
 import Buttons from './titles/Buttons'
 
-function TitlePage () {
+function TitlePage() {
   const animationRef = React.useRef(null)
 
   React.useEffect(() => {
@@ -14,7 +14,7 @@ function TitlePage () {
       easing: 'easeInOutSine',
       duration: 4000,
       direction: 'alternate',
-      loop: true
+      loop: true,
     })
   }, [])
 
