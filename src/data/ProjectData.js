@@ -19,7 +19,7 @@ export const ProjectData = [
   },
   {
     code: "https://github.com/liamkyoung/liamkyoung.github.io",
-    desc: "A tool to understand and compare user&pos;s thought processes on questions about an imperfect AI system.",
+    desc: "A tool to understand and compare user's thought processes on questions about an imperfect AI system.",
     frameworks: "Vanilla JavaScript, D3.js",
     image: "/photos/dataviz.PNG",
     site: "https://liamkyoung.github.io/",

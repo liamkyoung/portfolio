@@ -1,5 +1,5 @@
-import React from 'react'
-import DesktopWindowsTwoToneIcon from '@mui/icons-material/DesktopWindowsTwoTone'
+import React from "react"
+import DesktopWindowsTwoToneIcon from "@mui/icons-material/DesktopWindowsTwoTone"
 
 function WebDevelopment() {
   return (
@@ -9,13 +9,13 @@ function WebDevelopment() {
       </div>
       <DesktopWindowsTwoToneIcon
         className='skillIcons'
-        sx={{ fontSize: '4rem' }}
+        sx={{ fontSize: "4rem" }}
       />
       <div className='mb-10'>
         <h3 className='skillDesc'>
-          I have been using React and other JavaScript frameworks for a little
-          over a year. Creating in web is a lot of fun for me and I love to
-          focus on the details.
+          I have been using React and other JavaScript frameworks for over 2
+          years, and I always am eager to learn more. Creating in web is a lot
+          of fun for me and I love to focus on the details.
         </h3>
       </div>
     </div>
