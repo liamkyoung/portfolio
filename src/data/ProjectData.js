@@ -30,7 +30,7 @@ export const ProjectData = [
     code: 'https://github.com/liamkyoung/ufinder',
     desc: 'An mock application for Gators to meet Gators, used with A/B testing. Try ufinder.vercel.app/alternate for version B.',
     frameworks: 'NextJS, TypeScript, TailwindCSS',
-    image: '/photos/ufinder.PNG',
+    image: '/photos/ufinder.png',
     site: 'https://ufinder.vercel.app/',
     title: 'UFinder',
     video: '',
@@ -39,7 +39,7 @@ export const ProjectData = [
     code: 'https://swamphacks22.vercel.app/',
     desc: "A website for students to schedule events around campus. Created during Swamphacks '22.",
     frameworks: 'NextJS, TailwindCSS, Firebase',
-    image: '/photos/campus.PNG',
+    image: '/photos/campus.png',
     site: 'https://swamphacks22.vercel.app/',
     title: 'Campus',
     video:
